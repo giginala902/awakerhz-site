@@ -36,7 +36,7 @@ window.I18N = {
     "tile.store.text": "Strumenti, merch e risorse per sostenere la tua pratica.",
     "tile.health.text": "Cibo, erbe e abitudini che elevano la tua vibrazione.",
     "tile.hidden.text": "Saggezza antica e verità dimenticate, riportate alla luce.",
-    "tile.about.text": "La nostra missione: dove la scienza incontra la spiritualità.",
+    "tile.about.text": "La mia missione: dove la scienza incontra la spiritualità.",
     "tile.cta": "Esplora",
     "freqtab.solfeggio": "Solfeggio",
     "freqtab.chakra": "Chakra",
@@ -103,9 +103,9 @@ window.I18N = {
     "videos.cta": "Vedi tutti i video su YouTube →",
 
     /* about */
-    "about.label": "La Nostra Missione",
+    "about.label": "La Mia Missione",
     "about.title": "La Scienza Incontra la Spiritualità",
-    "about.p1": "AwakerHz unisce la saggezza antica alla comprensione moderna. Creiamo musica a frequenze di alta qualità: toni Solfeggio, binaural beats e chakra healing, pensati per sostenere meditazione, sonno e crescita spirituale.",
+    "about.p1": "AwakerHz unisce la saggezza antica alla comprensione moderna. Creo musica a frequenze di alta qualità: toni Solfeggio, binaural beats e chakra healing, pensati per sostenere meditazione, sonno e crescita spirituale.",
     "about.p2": "Ogni traccia è realizzata con precisione: toni in Hz accurati, differenziali binaurali calibrati e paesaggi sonori immersivi che invitano a stati di coscienza profondi.",
     "about.stat1": "Frequenze",
     "about.stat2": "Video in Programma",
@@ -129,7 +129,7 @@ window.I18N = {
     "books.title": "Libri & Letture",
     "books.sub": "Libri scelti con cura su coscienza, frequenze, guarigione e la storia nascosta dell'umanità.",
     "books.notice.title": "Elenco selezionato in arrivo",
-    "books.notice.text": "Stiamo curando la nostra lista di letture consigliate. Torna presto per la collezione completa.",
+    "books.notice.text": "Sto curando la mia lista di letture consigliate. Torna presto per la collezione completa.",
 
     /* pagina Store */
     "store.eyebrow": "Negozio",
@@ -143,14 +143,14 @@ window.I18N = {
     "health.title": "Consigli Salute & Cibo",
     "health.sub": "Cibo, erbe, rimedi e abitudini per nutrire il corpo ed elevare la tua vibrazione.",
     "health.notice.title": "Articoli in arrivo",
-    "health.notice.text": "Stiamo preparando guide e consigli pratici su salute e alimentazione. Torna presto.",
+    "health.notice.text": "Sto preparando guide e consigli pratici su salute e alimentazione. Torna presto.",
 
     /* pagina Conoscenza Nascosta */
     "hidden.eyebrow": "Esoterismo",
     "hidden.title": "Conoscenza Nascosta",
     "hidden.sub": "Saggezza antica, simbolismo e verità dimenticate, riportate alla luce.",
     "hidden.notice.title": "Contenuti in arrivo",
-    "hidden.notice.text": "Stiamo raccogliendo articoli e approfondimenti. Torna presto per esplorare.",
+    "hidden.notice.text": "Sto raccogliendo articoli e approfondimenti. Torna presto per esplorare.",
 
     /* pagina About */
     "aboutpage.eyebrow": "Il Progetto",
@@ -192,7 +192,7 @@ window.I18N = {
     "tile.store.text": "Herramientas, merch y recursos para apoyar tu práctica.",
     "tile.health.text": "Comida, hierbas y hábitos que elevan tu vibración.",
     "tile.hidden.text": "Sabiduría antigua y verdades olvidadas, traídas a la luz.",
-    "tile.about.text": "Nuestra misión: donde la ciencia se encuentra con la espiritualidad.",
+    "tile.about.text": "Mi misión: donde la ciencia se encuentra con la espiritualidad.",
     "tile.cta": "Explorar",
     "freqtab.solfeggio": "Solfeggio",
     "freqtab.chakra": "Chakras",
@@ -259,9 +259,9 @@ window.I18N = {
     "videos.cta": "Ver todos los vídeos en YouTube →",
 
     /* nosotros */
-    "about.label": "Nuestra Misión",
+    "about.label": "Mi Misión",
     "about.title": "La Ciencia se Encuentra con la Espiritualidad",
-    "about.p1": "AwakerHz une la sabiduría antigua con la comprensión moderna. Creamos música de frecuencias de alta calidad: tonos Solfeggio, binaural beats y chakra healing, diseñados para apoyar la meditación, el sueño y el crecimiento espiritual.",
+    "about.p1": "AwakerHz une la sabiduría antigua con la comprensión moderna. Creo música de frecuencias de alta calidad: tonos Solfeggio, binaural beats y chakra healing, diseñados para apoyar la meditación, el sueño y el crecimiento espiritual.",
     "about.p2": "Cada pista se elabora con precisión: tonos en Hz exactos, diferenciales binaurales calibrados y paisajes sonoros envolventes que invitan a estados profundos de conciencia.",
     "about.stat1": "Frecuencias",
     "about.stat2": "Vídeos Planeados",
@@ -285,7 +285,7 @@ window.I18N = {
     "books.title": "Libros y Lecturas",
     "books.sub": "Libros elegidos con cuidado sobre conciencia, frecuencias, sanación y la historia oculta de la humanidad.",
     "books.notice.title": "Lista seleccionada próximamente",
-    "books.notice.text": "Estamos curando nuestra lista de lecturas recomendadas. Vuelve pronto para ver la colección completa.",
+    "books.notice.text": "Estoy curando mi lista de lecturas recomendadas. Vuelve pronto para ver la colección completa.",
 
     /* página Tienda */
     "store.eyebrow": "Tienda",
@@ -299,14 +299,14 @@ window.I18N = {
     "health.title": "Consejos de Salud y Comida",
     "health.sub": "Comida, hierbas, remedios y hábitos para nutrir el cuerpo y elevar tu vibración.",
     "health.notice.title": "Artículos próximamente",
-    "health.notice.text": "Estamos preparando guías y consejos prácticos sobre salud y alimentación. Vuelve pronto.",
+    "health.notice.text": "Estoy preparando guías y consejos prácticos sobre salud y alimentación. Vuelve pronto.",
 
     /* página Conocimiento Oculto */
     "hidden.eyebrow": "Esoterismo",
     "hidden.title": "Conocimiento Oculto",
     "hidden.sub": "Sabiduría antigua, simbolismo y verdades olvidadas, traídas a la luz.",
     "hidden.notice.title": "Contenido próximamente",
-    "hidden.notice.text": "Estamos reuniendo artículos y análisis. Vuelve pronto para explorar.",
+    "hidden.notice.text": "Estoy reuniendo artículos y análisis. Vuelve pronto para explorar.",
 
     /* página About */
     "aboutpage.eyebrow": "El Proyecto",
