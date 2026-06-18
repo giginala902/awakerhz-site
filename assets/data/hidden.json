@@ -1,0 +1,93 @@
+{
+  "intro": {
+    "it": "Esiste un filo invisibile che lega le sapienze antiche, i simboli dimenticati e le frontiere della scienza. La Conoscenza Nascosta non è superstizione: è ciò che le civiltà custodivano prima che andasse perduto. Qui lo riportiamo alla luce, con rispetto per il mistero e onestà verso la ragione.",
+    "en": "An invisible thread connects ancient wisdom, forgotten symbols, and the frontiers of science. Hidden Knowledge is not superstition: it is what civilizations once safeguarded before it was lost. Here we bring it back to light, with reverence for the mystery and honesty toward reason.",
+    "es": "Existe un hilo invisible que une la sabiduría antigua, los símbolos olvidados y las fronteras de la ciencia. El Conocimiento Oculto no es superstición: es aquello que las civilizaciones custodiaban antes de que se perdiera. Aquí lo devolvemos a la luz, con respeto por el misterio y honestidad hacia la razón."
+  },
+  "topics": [
+    {
+      "id": "sacred-geometry",
+      "icon": "flower-of-life",
+      "title": {
+        "it": "Geometria Sacra",
+        "en": "Sacred Geometry",
+        "es": "Geometría Sagrada"
+      },
+      "blurb": {
+        "it": "Dal Fiore della Vita alla spirale aurea, le stesse forme ricorrono nei petali, nelle galassie e nei templi antichi. Un linguaggio matematico che molte culture considerarono l'impronta dell'ordine cosmico.",
+        "en": "From the Flower of Life to the golden spiral, the same forms recur in petals, galaxies, and ancient temples. A mathematical language that many cultures regarded as the signature of cosmic order.",
+        "es": "De la Flor de la Vida a la espiral áurea, las mismas formas reaparecen en los pétalos, las galaxias y los templos antiguos. Un lenguaje matemático que muchas culturas consideraron la huella del orden cósmico."
+      }
+    },
+    {
+      "id": "pineal-gland",
+      "icon": "eye",
+      "title": {
+        "it": "La Ghiandola Pineale",
+        "en": "The Pineal Gland",
+        "es": "La Glándula Pineal"
+      },
+      "blurb": {
+        "it": "Chiamata da molte tradizioni il \"terzo occhio\", questa piccola struttura al centro del cervello regola i ritmi del sonno e della luce. Tra fisiologia e simbolo, resta un ponte affascinante tra corpo e coscienza.",
+        "en": "Called the \"third eye\" by many traditions, this tiny structure at the center of the brain governs the rhythms of sleep and light. Between physiology and symbol, it remains a fascinating bridge between body and consciousness.",
+        "es": "Llamada el \"tercer ojo\" por muchas tradiciones, esta pequeña estructura en el centro del cerebro regula los ritmos del sueño y de la luz. Entre fisiología y símbolo, sigue siendo un puente fascinante entre cuerpo y conciencia."
+      }
+    },
+    {
+      "id": "cymatics",
+      "icon": "wave",
+      "title": {
+        "it": "Cimatica: il Suono Reso Visibile",
+        "en": "Cymatics: Sound Made Visible",
+        "es": "Cimática: el Sonido Hecho Visible"
+      },
+      "blurb": {
+        "it": "Quando una vibrazione attraversa la materia, sabbia e acqua si dispongono in figure geometriche precise. La cimatica mostra con i nostri occhi ciò che gli antichi intuivano: il suono dà forma al mondo.",
+        "en": "When a vibration passes through matter, sand and water arrange themselves into precise geometric patterns. Cymatics shows with our own eyes what the ancients intuited: sound gives shape to the world.",
+        "es": "Cuando una vibración atraviesa la materia, la arena y el agua se disponen en figuras geométricas precisas. La cimática muestra ante nuestros ojos lo que los antiguos intuían: el sonido da forma al mundo."
+      }
+    },
+    {
+      "id": "hermetic-principles",
+      "icon": "key",
+      "title": {
+        "it": "I Principi Ermetici e il Kybalion",
+        "en": "The Hermetic Principles and the Kybalion",
+        "es": "Los Principios Herméticos y el Kybalion"
+      },
+      "blurb": {
+        "it": "\"Come in alto, così in basso\": sette principi attribuiti a Ermete Trismegisto descrivono le leggi che legano mente, energia e universo. Una mappa filosofica che attraversa millenni di pensiero esoterico.",
+        "en": "\"As above, so below\": seven principles attributed to Hermes Trismegistus describe the laws binding mind, energy, and universe. A philosophical map running through millennia of esoteric thought.",
+        "es": "\"Como es arriba, es abajo\": siete principios atribuidos a Hermes Trismegisto describen las leyes que unen mente, energía y universo. Un mapa filosófico que atraviesa milenios de pensamiento esotérico."
+      }
+    },
+    {
+      "id": "lost-civilizations",
+      "icon": "pyramid",
+      "title": {
+        "it": "Civiltà Perdute",
+        "en": "Lost Civilizations",
+        "es": "Civilizaciones Perdidas"
+      },
+      "blurb": {
+        "it": "Piramidi allineate alle stelle, megaliti più antichi della storia conosciuta, saperi che sembrano sopravvivere alle catastrofi. Cosa sapevano davvero i popoli che ci hanno preceduto? Le rovine continuano a porre domande.",
+        "en": "Pyramids aligned to the stars, megaliths older than recorded history, knowledge that seems to outlast catastrophe. What did the peoples before us truly know? The ruins keep asking the questions.",
+        "es": "Pirámides alineadas con las estrellas, megalitos más antiguos que la historia conocida, saberes que parecen sobrevivir a las catástrofes. ¿Qué sabían realmente los pueblos que nos precedieron? Las ruinas siguen planteando preguntas."
+      }
+    },
+    {
+      "id": "field-consciousness",
+      "icon": "atom",
+      "title": {
+        "it": "Il Campo Energetico e la Coscienza",
+        "en": "The Energy Field and Consciousness",
+        "es": "El Campo Energético y la Conciencia"
+      },
+      "blurb": {
+        "it": "Dalla fisica quantistica alle tradizioni del prana e del chi, l'idea di un campo che connette tutto ritorna sotto nomi diversi. Esplorare il legame tra coscienza ed energia significa interrogare la natura stessa del reale.",
+        "en": "From quantum physics to the traditions of prana and chi, the idea of a field connecting everything returns under different names. Exploring the link between consciousness and energy means questioning the very nature of reality.",
+        "es": "De la física cuántica a las tradiciones del prana y el chi, la idea de un campo que conecta todo regresa con nombres distintos. Explorar el vínculo entre conciencia y energía es interrogar la naturaleza misma de lo real."
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "intro": {
+    "it": "I sette chakra sono i centri energetici che scorrono lungo la colonna vertebrale, dalla base del corpo alla sommità del capo. Nella tradizione yogica sono descritti come vortici di vibrazione, ciascuno legato a un colore, a un elemento e a un aspetto della nostra esperienza. Ad ognuno di essi viene associata una frequenza Solfeggio: ascoltarla è considerato un modo per accordare la propria energia, come si accorda uno strumento musicale. Lascia che il suono ti accompagni in un viaggio di consapevolezza, dalla radice alla corona.",
+    "en": "The seven chakras are the energy centers that flow along the spine, from the base of the body to the crown of the head. In the yogic tradition they are described as vortices of vibration, each tied to a color, an element, and an aspect of our experience. A Solfeggio frequency is associated with each one: listening to it is seen as a way to tune your own energy, the way you would tune a musical instrument. Let the sound guide you on a journey of awareness, from root to crown.",
+    "es": "Los siete chakras son los centros energéticos que recorren la columna vertebral, desde la base del cuerpo hasta la coronilla. En la tradición yóguica se describen como vórtices de vibración, cada uno ligado a un color, un elemento y un aspecto de nuestra experiencia. A cada uno se le asocia una frecuencia Solfeggio: escucharla se considera una forma de afinar la propia energía, como se afina un instrumento musical. Deja que el sonido te acompañe en un viaje de conciencia, desde la raíz hasta la corona."
+  },
+  "items": [
+    {
+      "id": "root",
+      "sanskrit": "Muladhara",
+      "hz": 396,
+      "color": "#C0392B",
+      "name": {
+        "it": "Chakra della Radice",
+        "en": "Root Chakra",
+        "es": "Chakra Raíz"
+      },
+      "element": {
+        "it": "Terra",
+        "en": "Earth",
+        "es": "Tierra"
+      },
+      "short": {
+        "it": "Radicamento · Sicurezza · Sopravvivenza",
+        "en": "Grounding · Safety · Survival",
+        "es": "Enraizamiento · Seguridad · Supervivencia"
+      },
+      "properties": {
+        "it": "Situato alla base della colonna, il chakra della radice è il nostro fondamento: governa il senso di stabilità, di appartenenza e di sicurezza materiale. Quando è armonioso ci sentiamo presenti, saldi e capaci di affrontare la vita con fiducia. Uno squilibrio può manifestarsi come ansia, irrequietezza o senso di precarietà. La frequenza di 396 Hz è tradizionalmente associata al rilascio della paura e del senso di colpa, aiutando a sciogliere le tensioni profonde. Ascoltarla con respiro lento è considerato un sostegno per ritrovare radicamento e calma interiore.",
+        "en": "Located at the base of the spine, the root chakra is our foundation: it governs the sense of stability, belonging, and material security. When it is balanced we feel present, steady, and able to meet life with confidence. An imbalance can show up as anxiety, restlessness, or a feeling of precariousness. The frequency of 396 Hz is traditionally associated with releasing fear and guilt, helping to dissolve deep-seated tension. Listening to it with slow breathing is regarded as a support for restoring grounding and inner calm.",
+        "es": "Situado en la base de la columna, el chakra raíz es nuestro cimiento: rige el sentido de estabilidad, pertenencia y seguridad material. Cuando está en armonía nos sentimos presentes, firmes y capaces de afrontar la vida con confianza. Un desequilibrio puede manifestarse como ansiedad, inquietud o sensación de fragilidad. La frecuencia de 396 Hz se asocia tradicionalmente con la liberación del miedo y la culpa, ayudando a disolver tensiones profundas. Escucharla con una respiración lenta se considera un apoyo para recuperar el enraizamiento y la calma interior."
+      }
+    },
+    {
+      "id": "sacral",
+      "sanskrit": "Svadhisthana",
+      "hz": 417,
+      "color": "#E67E22",
+      "name": {
+        "it": "Chakra Sacrale",
+        "en": "Sacral Chakra",
+        "es": "Chakra Sacro"
+      },
+      "element": {
+        "it": "Acqua",
+        "en": "Water",
+        "es": "Agua"
+      },
+      "short": {
+        "it": "Creatività · Emozioni · Piacere",
+        "en": "Creativity · Emotions · Pleasure",
+        "es": "Creatividad · Emociones · Placer"
+      },
+      "properties": {
+        "it": "Posto nel basso ventre, il chakra sacrale è la sorgente della creatività, del desiderio e della vita emotiva. Presiede alla nostra capacità di provare piacere, di lasciarci fluire e di entrare in relazione con gli altri. In equilibrio dona spontaneità, passione e una sana apertura ai sentimenti. Quando è bloccato possono comparire rigidità emotiva, sensi di colpa o difficoltà a godere della vita. La frequenza di 417 Hz è legata al cambiamento e alla rimozione delle energie stagnanti: ascoltarla è visto come un invito a sbloccare il flusso creativo e a rinnovarsi.",
+        "en": "Located in the lower abdomen, the sacral chakra is the source of creativity, desire, and emotional life. It oversees our capacity to feel pleasure, to let ourselves flow, and to connect with others. In balance it brings spontaneity, passion, and a healthy openness to feelings. When blocked, emotional rigidity, guilt, or difficulty enjoying life may surface. The frequency of 417 Hz is linked to change and to clearing stagnant energy: listening to it is seen as an invitation to unblock the creative flow and renew yourself.",
+        "es": "Ubicado en el bajo vientre, el chakra sacro es la fuente de la creatividad, el deseo y la vida emocional. Rige nuestra capacidad de sentir placer, de dejarnos fluir y de relacionarnos con los demás. En equilibrio aporta espontaneidad, pasión y una sana apertura a los sentimientos. Cuando está bloqueado pueden aparecer rigidez emocional, culpa o dificultad para disfrutar de la vida. La frecuencia de 417 Hz se vincula al cambio y a la eliminación de las energías estancadas: escucharla se considera una invitación a desbloquear el flujo creativo y renovarse."
+      }
+    },
+    {
+      "id": "solar",
+      "sanskrit": "Manipura",
+      "hz": 528,
+      "color": "#F1C40F",
+      "name": {
+        "it": "Chakra del Plesso Solare",
+        "en": "Solar Plexus Chakra",
+        "es": "Chakra del Plexo Solar"
+      },
+      "element": {
+        "it": "Fuoco",
+        "en": "Fire",
+        "es": "Fuego"
+      },
+      "short": {
+        "it": "Volontà · Potere personale · Autostima",
+        "en": "Willpower · Personal Power · Self-Esteem",
+        "es": "Voluntad · Poder personal · Autoestima"
+      },
+      "properties": {
+        "it": "Collocato all'altezza dello stomaco, il chakra del plesso solare è il centro del potere personale, della volontà e dell'identità. Da qui nascono la determinazione, la fiducia in se stessi e la capacità di trasformare le intenzioni in azione. Quando è forte e luminoso ci sentiamo padroni della nostra vita; quando è debole possono emergere insicurezza, passività o bisogno di controllo. La frequenza di 528 Hz, spesso chiamata frequenza della trasformazione, è considerata profondamente rigenerante e armonizzante. Ascoltarla è visto come un modo per accendere la fiducia e ritrovare il proprio centro.",
+        "en": "Located at the level of the stomach, the solar plexus chakra is the center of personal power, will, and identity. From here arise determination, self-confidence, and the ability to turn intentions into action. When it is strong and bright we feel in command of our lives; when it is weak, insecurity, passivity, or a need for control may emerge. The frequency of 528 Hz, often called the frequency of transformation, is regarded as deeply regenerative and harmonizing. Listening to it is seen as a way to ignite confidence and return to your own center.",
+        "es": "Situado a la altura del estómago, el chakra del plexo solar es el centro del poder personal, la voluntad y la identidad. De aquí nacen la determinación, la confianza en uno mismo y la capacidad de transformar las intenciones en acción. Cuando es fuerte y luminoso nos sentimos dueños de nuestra vida; cuando es débil pueden surgir inseguridad, pasividad o necesidad de control. La frecuencia de 528 Hz, a menudo llamada la frecuencia de la transformación, se considera profundamente regeneradora y armonizadora. Escucharla se ve como una forma de encender la confianza y reencontrar el propio centro."
+      }
+    },
+    {
+      "id": "heart",
+      "sanskrit": "Anahata",
+      "hz": 639,
+      "color": "#27AE60",
+      "name": {
+        "it": "Chakra del Cuore",
+        "en": "Heart Chakra",
+        "es": "Chakra del Corazón"
+      },
+      "element": {
+        "it": "Aria",
+        "en": "Air",
+        "es": "Aire"
+      },
+      "short": {
+        "it": "Amore · Compassione · Connessione",
+        "en": "Love · Compassion · Connection",
+        "es": "Amor · Compasión · Conexión"
+      },
+      "properties": {
+        "it": "Al centro del petto, il chakra del cuore è il ponte tra i centri inferiori e quelli superiori, il punto in cui l'energia diventa amore. Governa la compassione, il perdono e la capacità di entrare in relazione autentica con gli altri e con se stessi. Quando è aperto sperimentiamo empatia, gratitudine e un senso profondo di connessione. Le sue ombre sono la chiusura emotiva, il rancore o la difficoltà a ricevere affetto. La frequenza di 639 Hz è associata all'armonia nelle relazioni e alla riconciliazione: ascoltarla è considerato un sostegno per ammorbidire il cuore e coltivare legami sereni.",
+        "en": "At the center of the chest, the heart chakra is the bridge between the lower and upper centers, the point where energy becomes love. It governs compassion, forgiveness, and the ability to relate authentically to others and to oneself. When it is open we experience empathy, gratitude, and a deep sense of connection. Its shadows are emotional closure, resentment, or difficulty receiving affection. The frequency of 639 Hz is associated with harmony in relationships and with reconciliation: listening to it is regarded as a support for softening the heart and nurturing peaceful bonds.",
+        "es": "En el centro del pecho, el chakra del corazón es el puente entre los centros inferiores y superiores, el punto en que la energía se convierte en amor. Rige la compasión, el perdón y la capacidad de relacionarse de forma auténtica con los demás y con uno mismo. Cuando está abierto experimentamos empatía, gratitud y un profundo sentido de conexión. Sus sombras son el cierre emocional, el rencor o la dificultad para recibir afecto. La frecuencia de 639 Hz se asocia con la armonía en las relaciones y con la reconciliación: escucharla se considera un apoyo para ablandar el corazón y cultivar vínculos serenos."
+      }
+    },
+    {
+      "id": "throat",
+      "sanskrit": "Vishuddha",
+      "hz": 741,
+      "color": "#3498DB",
+      "name": {
+        "it": "Chakra della Gola",
+        "en": "Throat Chakra",
+        "es": "Chakra de la Garganta"
+      },
+      "element": {
+        "it": "Etere",
+        "en": "Ether",
+        "es": "Éter"
+      },
+      "short": {
+        "it": "Comunicazione · Verità · Espressione",
+        "en": "Communication · Truth · Expression",
+        "es": "Comunicación · Verdad · Expresión"
+      },
+      "properties": {
+        "it": "Situato nella gola, questo chakra è il centro della comunicazione, dell'autenticità e dell'espressione personale. Ci permette di dare voce ai nostri pensieri, di dire la nostra verità e di ascoltare con apertura. Quando è equilibrato la parola diventa chiara, sincera e in sintonia con ciò che sentiamo. Un blocco può tradursi in timidezza, incomprensioni o nella tendenza a trattenere ciò che vorremmo dire. La frequenza di 741 Hz è tradizionalmente legata alla purificazione e alla libera espressione: ascoltarla è visto come un invito a liberare la voce e a comunicare con autenticità.",
+        "en": "Located in the throat, this chakra is the center of communication, authenticity, and personal expression. It allows us to give voice to our thoughts, to speak our truth, and to listen with openness. When it is balanced, speech becomes clear, sincere, and aligned with what we feel. A block can translate into shyness, misunderstandings, or a tendency to hold back what we wish to say. The frequency of 741 Hz is traditionally linked to purification and free expression: listening to it is seen as an invitation to free the voice and communicate with authenticity.",
+        "es": "Situado en la garganta, este chakra es el centro de la comunicación, la autenticidad y la expresión personal. Nos permite dar voz a nuestros pensamientos, decir nuestra verdad y escuchar con apertura. Cuando está equilibrado, la palabra se vuelve clara, sincera y en sintonía con lo que sentimos. Un bloqueo puede traducirse en timidez, malentendidos o en la tendencia a retener lo que quisiéramos decir. La frecuencia de 741 Hz se vincula tradicionalmente con la purificación y la libre expresión: escucharla se ve como una invitación a liberar la voz y comunicar con autenticidad."
+      }
+    },
+    {
+      "id": "thirdeye",
+      "sanskrit": "Ajna",
+      "hz": 852,
+      "color": "#5B2C8D",
+      "name": {
+        "it": "Chakra del Terzo Occhio",
+        "en": "Third Eye Chakra",
+        "es": "Chakra del Tercer Ojo"
+      },
+      "element": {
+        "it": "Luce",
+        "en": "Light",
+        "es": "Luz"
+      },
+      "short": {
+        "it": "Intuizione · Visione · Saggezza",
+        "en": "Intuition · Insight · Wisdom",
+        "es": "Intuición · Visión · Sabiduría"
+      },
+      "properties": {
+        "it": "Posto tra le sopracciglia, il chakra del terzo occhio è la sede dell'intuizione, dell'immaginazione e della percezione che va oltre i cinque sensi. Governa la chiarezza mentale, la capacità di visione e l'accesso alla saggezza interiore. Quando è risvegliato favorisce concentrazione, intuizioni profonde e una visione più ampia della realtà. Uno squilibrio può manifestarsi come confusione, mancanza di direzione o eccesso di razionalità. La frequenza di 852 Hz è associata al risveglio dell'intuizione e al ritorno all'ordine spirituale: ascoltarla è considerato un sostegno per affinare la percezione e calmare la mente.",
+        "en": "Located between the eyebrows, the third eye chakra is the seat of intuition, imagination, and perception that goes beyond the five senses. It governs mental clarity, the capacity for vision, and access to inner wisdom. When awakened, it fosters concentration, deep insight, and a wider view of reality. An imbalance can show up as confusion, lack of direction, or excessive rationality. The frequency of 852 Hz is associated with awakening intuition and returning to spiritual order: listening to it is regarded as a support for sharpening perception and quieting the mind.",
+        "es": "Situado entre las cejas, el chakra del tercer ojo es la sede de la intuición, la imaginación y la percepción que va más allá de los cinco sentidos. Rige la claridad mental, la capacidad de visión y el acceso a la sabiduría interior. Cuando está despierto favorece la concentración, las intuiciones profundas y una visión más amplia de la realidad. Un desequilibrio puede manifestarse como confusión, falta de dirección o exceso de racionalidad. La frecuencia de 852 Hz se asocia con el despertar de la intuición y el retorno al orden espiritual: escucharla se considera un apoyo para afinar la percepción y calmar la mente."
+      }
+    },
+    {
+      "id": "crown",
+      "sanskrit": "Sahasrara",
+      "hz": 963,
+      "color": "#8E44AD",
+      "name": {
+        "it": "Chakra della Corona",
+        "en": "Crown Chakra",
+        "es": "Chakra de la Corona"
+      },
+      "element": {
+        "it": "Coscienza",
+        "en": "Consciousness",
+        "es": "Conciencia"
+      },
+      "short": {
+        "it": "Spiritualità · Unità · Illuminazione",
+        "en": "Spirituality · Unity · Enlightenment",
+        "es": "Espiritualidad · Unidad · Iluminación"
+      },
+      "properties": {
+        "it": "Alla sommità del capo, il chakra della corona è il punto di connessione con la dimensione spirituale e con il tutto che ci circonda. Rappresenta la coscienza più elevata, il senso di unità e la trascendenza dell'ego. Quando è aperto sperimentiamo pace profonda, ispirazione e un senso di appartenenza più grande di noi. Le sue ombre sono il distacco, lo scetticismo o un senso di vuoto interiore. La frequenza di 963 Hz, spesso chiamata frequenza del ritorno all'origine, è associata al risveglio spirituale e all'espansione della coscienza: ascoltarla in silenzio è considerato un invito a elevarsi e a sentirsi parte di un tutto.",
+        "en": "At the crown of the head, the crown chakra is the point of connection with the spiritual dimension and with the whole that surrounds us. It represents higher consciousness, the sense of unity, and the transcendence of the ego. When it is open we experience deep peace, inspiration, and a sense of belonging greater than ourselves. Its shadows are detachment, skepticism, or a feeling of inner emptiness. The frequency of 963 Hz, often called the frequency of return to the source, is associated with spiritual awakening and the expansion of consciousness: listening to it in silence is regarded as an invitation to rise and feel part of a greater whole.",
+        "es": "En la coronilla, el chakra de la corona es el punto de conexión con la dimensión espiritual y con el todo que nos rodea. Representa la conciencia más elevada, el sentido de unidad y la trascendencia del ego. Cuando está abierto experimentamos paz profunda, inspiración y un sentido de pertenencia mayor que nosotros mismos. Sus sombras son el desapego, el escepticismo o una sensación de vacío interior. La frecuencia de 963 Hz, a menudo llamada la frecuencia del regreso al origen, se asocia con el despertar espiritual y la expansión de la conciencia: escucharla en silencio se considera una invitación a elevarse y sentirse parte de un todo."
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "sections": [
+    {
+      "id": "tshirts",
+      "title": {
+        "it": "Magliette",
+        "en": "T-Shirts",
+        "es": "Camisetas"
+      },
+      "intro": {
+        "it": "Indossa la frequenza. Ogni maglietta AwakerHz porta geometrie sacre e codici vibrazionali su cotone morbido: simboli pensati per accompagnarti nella giornata e ricordarti che tutto, in fondo, è risonanza. Capi segnaposto in attesa della collezione definitiva.",
+        "en": "Wear the frequency. Every AwakerHz tee carries sacred geometry and vibrational codes on soft cotton: symbols designed to move with you through the day and remind you that, at its core, everything is resonance. Placeholder pieces ahead of the full collection.",
+        "es": "Lleva puesta la frecuencia. Cada camiseta AwakerHz luce geometría sagrada y códigos vibracionales sobre algodón suave: símbolos pensados para acompañarte durante el día y recordarte que, en el fondo, todo es resonancia. Prendas provisionales a la espera de la colección definitiva."
+      },
+      "products": [
+        {
+          "name": {
+            "it": "Maglietta Fiore della Vita",
+            "en": "Flower of Life Tee",
+            "es": "Camiseta Flor de la Vida"
+          },
+          "desc": {
+            "it": "Il Fiore della Vita stampato in viola e oro al centro del petto: l'antico schema da cui, secondo la tradizione, nasce ogni forma. Una geometria che invita a respirare lento e a sentirsi parte del tutto.",
+            "en": "The Flower of Life printed in violet and gold across the chest: the ancient pattern from which, by tradition, every form is born. A geometry that invites slow breath and a sense of belonging to the whole.",
+            "es": "La Flor de la Vida estampada en violeta y oro en el centro del pecho: el antiguo patrón del que, según la tradición, nace toda forma. Una geometría que invita a respirar despacio y a sentirse parte del todo."
+          },
+          "price": "29 EUR"
+        },
+        {
+          "name": {
+            "it": "Maglietta 528 Hz",
+            "en": "528 Hz Tee",
+            "es": "Camiseta 528 Hz"
+          },
+          "desc": {
+            "it": "Un tributo minimale alla frequenza 528 Hz, da molti chiamata la nota della trasformazione e dell'armonia. Onde sonore stilizzate in ciano su fondo scuro, per chi ama portare la musica dell'universo addosso.",
+            "en": "A minimal tribute to 528 Hz, often called the note of transformation and harmony. Stylised sound waves in cyan on a dark base, for those who like to carry the music of the universe with them.",
+            "es": "Un homenaje minimalista a la frecuencia 528 Hz, llamada por muchos la nota de la transformación y la armonía. Ondas sonoras estilizadas en cian sobre fondo oscuro, para quienes aman llevar consigo la música del universo."
+          },
+          "price": "29 EUR"
+        },
+        {
+          "name": {
+            "it": "Maglietta Geometria Sacra",
+            "en": "Sacred Geometry Tee",
+            "es": "Camiseta Geometría Sagrada"
+          },
+          "desc": {
+            "it": "Metatron, cerchi concentrici e linee dorate si intrecciano in un mandala cosmico. Un disegno elegante e meditativo per chi cerca un capo che parli di ordine, mistero e bellezza dell'invisibile.",
+            "en": "Metatron, concentric circles and golden lines weave into a cosmic mandala. An elegant, meditative design for anyone seeking a piece that speaks of order, mystery and the beauty of the unseen.",
+            "es": "Metatrón, círculos concéntricos y líneas doradas se entrelazan en un mandala cósmico. Un diseño elegante y meditativo para quien busca una prenda que hable de orden, misterio y la belleza de lo invisible."
+          },
+          "price": "29 EUR"
+        }
+      ]
+    },
+    {
+      "id": "hats",
+      "title": {
+        "it": "Cappellini",
+        "en": "Hats",
+        "es": "Gorras"
+      },
+      "intro": {
+        "it": "Un dettaglio che eleva. I cappellini AwakerHz portano i nostri simboli ricamati con discrezione: geometrie sottili e codici di frequenza pensati per chi vuole tenere alta l'energia, anche all'aperto. Modelli segnaposto in attesa della collezione definitiva.",
+        "en": "A detail that lifts you. AwakerHz hats carry our symbols embroidered with restraint: subtle geometries and frequency codes for those who like to keep their energy high, even outdoors. Placeholder styles ahead of the full collection.",
+        "es": "Un detalle que eleva. Las gorras AwakerHz lucen nuestros símbolos bordados con discreción: geometrías sutiles y códigos de frecuencia para quienes quieren mantener la energía alta, también al aire libre. Modelos provisionales a la espera de la colección definitiva."
+      },
+      "products": [
+        {
+          "name": {
+            "it": "Cappellino Fiore della Vita",
+            "en": "Flower of Life Cap",
+            "es": "Gorra Flor de la Vida"
+          },
+          "desc": {
+            "it": "Il Fiore della Vita ricamato in filo dorato sul fronte di un cappello scuro. Sobrio di giorno, simbolico sempre: un cenno silenzioso alla geometria che unisce ogni cosa.",
+            "en": "The Flower of Life embroidered in gold thread on the front of a dark cap. Understated by day, symbolic always: a quiet nod to the geometry that unites all things.",
+            "es": "La Flor de la Vida bordada en hilo dorado en el frente de una gorra oscura. Sobria de día, simbólica siempre: un guiño silencioso a la geometría que une todas las cosas."
+          },
+          "price": "25 EUR"
+        },
+        {
+          "name": {
+            "it": "Cappellino 528 Hz",
+            "en": "528 Hz Cap",
+            "es": "Gorra 528 Hz"
+          },
+          "desc": {
+            "it": "Solo \"528 Hz\" ricamato in ciano, essenziale e riconoscibile. Per chi sente che certe frequenze meritano di essere indossate ogni giorno come un piccolo promemoria di armonia.",
+            "en": "Just \"528 Hz\" embroidered in cyan, clean and recognisable. For those who feel some frequencies deserve to be worn every day as a small reminder of harmony.",
+            "es": "Solo \"528 Hz\" bordado en cian, esencial y reconocible. Para quien siente que ciertas frecuencias merecen llevarse cada día como un pequeño recordatorio de armonía."
+          },
+          "price": "25 EUR"
+        },
+        {
+          "name": {
+            "it": "Cappellino Geometria Sacra",
+            "en": "Sacred Geometry Cap",
+            "es": "Gorra Geometría Sagrada"
+          },
+          "desc": {
+            "it": "Un mandala di geometria sacra ricamato in tono su tono, visibile alla luce giusta. Discreto ed elegante, per chi preferisce un simbolo che si svela solo a chi sa guardare.",
+            "en": "A sacred geometry mandala embroidered tone on tone, revealed in the right light. Discreet and elegant, for those who prefer a symbol that shows itself only to those who look closely.",
+            "es": "Un mandala de geometría sagrada bordado tono sobre tono, visible con la luz adecuada. Discreto y elegante, para quien prefiere un símbolo que solo se revela a quien sabe mirar."
+          },
+          "price": "25 EUR"
+        }
+      ]
+    }
+  ]
+}

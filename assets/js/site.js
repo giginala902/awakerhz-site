@@ -17,7 +17,7 @@
     { page: 'store',       href: 'store.html',            key: 'nav.store',       en: 'Store' },
     { page: 'health',      href: 'health.html',           key: 'nav.health',      en: 'Health & Food' },
     { page: 'hidden',      href: 'hidden-knowledge.html', key: 'nav.hidden',      en: 'Hidden Knowledge' },
-    { page: 'about',       href: 'about.html',            key: 'nav.about',       en: 'About' }
+    { page: 'about',       href: 'about.html',            key: 'nav.about',       en: 'Manifesto' }
   ];
 
   function navLinks(cls) {
@@ -62,7 +62,7 @@
         <a href="frequencies.html" data-i18n="nav.frequencies">Frequencies</a>
         <a href="books.html" data-i18n="nav.books">Books</a>
         <a href="health.html" data-i18n="nav.health">Health &amp; Food</a>
-        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="about.html" data-i18n="nav.about">Manifesto</a>
         <a href="mailto:contact@awakerhz.com">contact@awakerhz.com</a>
       </div>
       <div class="footer-copy" data-i18n="footer.copy">© 2025 AwakerHz  ·  awakerhz.com  ·  All rights reserved</div>
@@ -84,6 +84,7 @@
     wireNav();
     wireLang();
     wireFreqRows();
+    wireSubtabs();
     wireNewsletter();
     wireFadeIn();
 
@@ -145,28 +146,42 @@
     });
   }
 
+  // delega: funziona anche per le righe generate dinamicamente (chakra/binaural)
   function wireFreqRows() {
-    const rows = document.querySelectorAll('.freq-row');
-    if (!rows.length) return;
-
-    rows.forEach(row => {
-      const head = row.querySelector('.freq-row-head');
-      if (!head) return;
-      setRowOpen(row, row.classList.contains('expanded')); // stato iniziale (es. 528)
-      const toggle = (e) => {
-        if (e.target.closest('a')) return; // lascia funzionare i link
-        setRowOpen(row, !row.classList.contains('expanded'));
-      };
-      head.addEventListener('click', toggle);
-      head.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(e); }
-      });
+    document.addEventListener('click', (e) => {
+      const head = e.target.closest('.freq-row-head');
+      if (!head || e.target.closest('a')) return;
+      const row = head.closest('.freq-row');
+      setRowOpen(row, !row.classList.contains('expanded'));
     });
-
-    // il testo tradotto cambia altezza → ricalcola le righe aperte
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      const head = e.target.closest('.freq-row-head');
+      if (!head) return;
+      e.preventDefault();
+      const row = head.closest('.freq-row');
+      setRowOpen(row, !row.classList.contains('expanded'));
+    });
+    // righe aperte staticamente all'avvio
+    document.querySelectorAll('.freq-row.expanded').forEach(r => setRowOpen(r, true));
+    // dopo un render dinamico o un cambio lingua → ricalcola le righe aperte
+    document.addEventListener('content:rendered', () => requestAnimationFrame(recalcOpenRows));
     document.addEventListener('i18n:changed', () => requestAnimationFrame(recalcOpenRows));
     let rt;
     addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(recalcOpenRows, 150); }, { passive: true });
+  }
+
+  // sotto-tab (pills): mostra il pannello corrispondente, scope = genitore della barra
+  function wireSubtabs() {
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('.subtab');
+      if (!btn) return;
+      const bar = btn.closest('.subtabs');
+      const scope = bar.parentElement;
+      const target = btn.getAttribute('data-target');
+      bar.querySelectorAll('.subtab').forEach(b => b.classList.toggle('active', b === btn));
+      scope.querySelectorAll('.subpanel').forEach(p => p.classList.toggle('active', p.id === target));
+    });
   }
 
   /* ─────────────── newsletter (Formspree) ─────────────── */

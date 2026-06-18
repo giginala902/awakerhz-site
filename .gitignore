@@ -8,3 +8,6 @@ desktop.ini
 
 # log
 *.log
+
+# contenuti grezzi generati (la versione servita e in assets/data/)
+_content/

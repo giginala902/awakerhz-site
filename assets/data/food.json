@@ -1,0 +1,234 @@
+{
+  "disclaimer": {
+    "it": "I contenuti di questa sezione hanno finalità puramente informative e di benessere e riflettono usi tradizionali; non costituiscono consigli medici, diagnosi o cure. Per qualsiasi condizione di salute, prima di assumere integratori o modificare la dieta, consulta un professionista sanitario qualificato.",
+    "en": "The content in this section is intended for informational and wellness purposes only and reflects traditional uses; it does not constitute medical advice, diagnosis, or treatment. For any health condition, consult a qualified healthcare professional before taking supplements or changing your diet.",
+    "es": "El contenido de esta sección tiene fines puramente informativos y de bienestar y refleja usos tradicionales; no constituye consejo médico, diagnóstico ni tratamiento. Ante cualquier condición de salud, consulta a un profesional sanitario cualificado antes de tomar suplementos o modificar tu alimentación."
+  },
+  "sections": [
+    {
+      "id": "herbs",
+      "title": {
+        "it": "Erbe e radici della tradizione",
+        "en": "Herbs and Roots of Tradition",
+        "es": "Hierbas y raíces de la tradición"
+      },
+      "intro": {
+        "it": "Piante che da secoli accompagnano i rituali di benessere di molte culture. Le riscopriamo qui come parte di una quotidianità consapevole, dove l'antica sapienza erboristica incontra una vita più armoniosa.",
+        "en": "Plants that have accompanied the wellness rituals of many cultures for centuries. We rediscover them here as part of a mindful daily life, where ancient herbal wisdom meets a more harmonious way of living.",
+        "es": "Plantas que durante siglos han acompañado los rituales de bienestar de muchas culturas. Las redescubrimos aquí como parte de una vida cotidiana consciente, donde la antigua sabiduría herbal se encuentra con una existencia más armoniosa."
+      },
+      "items": [
+        {
+          "name": {
+            "it": "Ashwagandha",
+            "en": "Ashwagandha",
+            "es": "Ashwagandha"
+          },
+          "desc": {
+            "it": "Radice cardine della tradizione ayurvedica, conosciuta come pianta adattogena e usata da secoli in rituali volti a coltivare equilibrio e radicamento. Spesso assunta come polvere sciolta in bevande calde la sera.",
+            "en": "A cornerstone root of the Ayurvedic tradition, known as an adaptogenic plant and used for centuries in rituals meant to nurture balance and grounding. Often taken as a powder dissolved in warm evening drinks.",
+            "es": "Raíz fundamental de la tradición ayurvédica, conocida como planta adaptógena y usada durante siglos en rituales para cultivar el equilibrio y el arraigo. A menudo se toma en polvo disuelto en bebidas calientes por la noche."
+          }
+        },
+        {
+          "name": {
+            "it": "Curcuma",
+            "en": "Turmeric",
+            "es": "Cúrcuma"
+          },
+          "desc": {
+            "it": "Radice dal colore dorato, venerata nelle cucine e nelle pratiche tradizionali dell'Oriente. Si accompagna spesso a un pizzico di pepe nero e a un grasso buono, secondo l'uso antico, in tisane e \"latti d'oro\".",
+            "en": "A golden-hued root revered in the kitchens and traditional practices of the East. Following ancient custom, it is often paired with a pinch of black pepper and a good fat, in infusions and \"golden milks\".",
+            "es": "Raíz de color dorado, venerada en las cocinas y prácticas tradicionales de Oriente. Según la costumbre antigua, suele combinarse con una pizca de pimienta negra y una grasa saludable, en infusiones y \"leches doradas\"."
+          }
+        },
+        {
+          "name": {
+            "it": "Zenzero",
+            "en": "Ginger",
+            "es": "Jengibre"
+          },
+          "desc": {
+            "it": "Radice dal sapore vivo e pungente, presente da millenni nelle tradizioni di benessere asiatiche. Tradizionalmente apprezzata in infusioni calde, da sola o con limone e miele, come gesto di conforto quotidiano.",
+            "en": "A root with a lively, pungent flavor, present in Asian wellness traditions for millennia. Traditionally enjoyed in warm infusions, alone or with lemon and honey, as a gesture of daily comfort.",
+            "es": "Raíz de sabor vivo y picante, presente desde hace milenios en las tradiciones de bienestar asiáticas. Tradicionalmente se aprecia en infusiones calientes, sola o con limón y miel, como gesto de consuelo cotidiano."
+          }
+        },
+        {
+          "name": {
+            "it": "Ortica",
+            "en": "Nettle",
+            "es": "Ortiga"
+          },
+          "desc": {
+            "it": "Pianta spontanea della tradizione erboristica europea, raccolta da generazioni e impiegata in infusi e zuppe. Le sue foglie, una volta essiccate o cotte, sono da sempre parte dei rituali stagionali di rinnovamento.",
+            "en": "A wild plant of the European herbal tradition, gathered for generations and used in infusions and soups. Once dried or cooked, its leaves have long been part of seasonal rituals of renewal.",
+            "es": "Planta silvestre de la tradición herbal europea, recolectada durante generaciones y empleada en infusiones y sopas. Sus hojas, una vez secas o cocidas, han formado parte desde siempre de los rituales estacionales de renovación."
+          }
+        },
+        {
+          "name": {
+            "it": "Tulsi (Basilico sacro)",
+            "en": "Tulsi (Holy Basil)",
+            "es": "Tulsi (Albahaca sagrada)"
+          },
+          "desc": {
+            "it": "Pianta sacra in India, dove è venerata e coltivata nei cortili delle case da tempi immemorabili. Tradizionalmente preparata in infuso, accompagna momenti di raccoglimento e di quiete interiore.",
+            "en": "A sacred plant in India, where it has been revered and grown in household courtyards since time immemorial. Traditionally prepared as an infusion, it accompanies moments of contemplation and inner stillness.",
+            "es": "Planta sagrada en la India, donde se venera y cultiva en los patios de las casas desde tiempos inmemoriales. Tradicionalmente preparada en infusión, acompaña momentos de recogimiento y quietud interior."
+          }
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "title": {
+        "it": "Rituali del mattino",
+        "en": "Morning Rituals",
+        "es": "Rituales de la mañana"
+      },
+      "intro": {
+        "it": "Il modo in cui inizi la giornata dà il tono a tutto ciò che segue. Piccoli gesti consapevoli, ripetuti con costanza, possono diventare un'ancora di armonia e una porta verso una presenza più piena.",
+        "en": "The way you begin your day sets the tone for everything that follows. Small mindful gestures, repeated with consistency, can become an anchor of harmony and a doorway to fuller presence.",
+        "es": "La manera en que comienzas el día marca el tono de todo lo que sigue. Pequeños gestos conscientes, repetidos con constancia, pueden convertirse en un ancla de armonía y una puerta hacia una presencia más plena."
+      },
+      "items": [
+        {
+          "name": {
+            "it": "Luce del sole al mattino",
+            "en": "Morning Sunlight",
+            "es": "Luz del sol matutina"
+          },
+          "desc": {
+            "it": "Esporsi alla luce naturale poco dopo il risveglio è un rituale antico quanto l'uomo. Anche pochi minuti all'aperto aiutano a sintonizzare il corpo con il ritmo del giorno e a risvegliare dolcemente i sensi.",
+            "en": "Exposing yourself to natural light shortly after waking is a ritual as old as humankind. Even a few minutes outdoors help attune the body to the rhythm of the day and gently awaken the senses.",
+            "es": "Exponerse a la luz natural poco después de despertar es un ritual tan antiguo como la humanidad. Incluso unos pocos minutos al aire libre ayudan a sintonizar el cuerpo con el ritmo del día y a despertar suavemente los sentidos."
+          }
+        },
+        {
+          "name": {
+            "it": "Idratazione consapevole",
+            "en": "Mindful Hydration",
+            "es": "Hidratación consciente"
+          },
+          "desc": {
+            "it": "Dopo le ore di sonno, il corpo accoglie con gratitudine un bicchiere d'acqua. È un gesto semplice per ridare vitalità all'organismo e aprire la giornata con cura verso se stessi.",
+            "en": "After hours of sleep, the body gratefully welcomes a glass of water. It is a simple gesture to bring vitality back to the body and open the day with care toward oneself.",
+            "es": "Tras las horas de sueño, el cuerpo recibe con gratitud un vaso de agua. Es un gesto sencillo para devolver vitalidad al organismo y abrir el día con cuidado hacia uno mismo."
+          }
+        },
+        {
+          "name": {
+            "it": "Respirazione profonda",
+            "en": "Deep Breathing",
+            "es": "Respiración profunda"
+          },
+          "desc": {
+            "it": "Qualche minuto di respiro lento e consapevole crea uno spazio di calma prima ancora che la giornata cominci. Inspirare ed espirare con attenzione è da sempre la più immediata via di ritorno al presente.",
+            "en": "A few minutes of slow, conscious breathing create a space of calm before the day even begins. Inhaling and exhaling with attention has always been the most immediate path back to the present.",
+            "es": "Unos minutos de respiración lenta y consciente crean un espacio de calma antes incluso de que comience el día. Inhalar y exhalar con atención ha sido siempre el camino más inmediato de regreso al presente."
+          }
+        },
+        {
+          "name": {
+            "it": "Movimento dolce",
+            "en": "Gentle Movement",
+            "es": "Movimiento suave"
+          },
+          "desc": {
+            "it": "Stiramenti delicati, qualche posizione di yoga o una breve passeggiata risvegliano il corpo senza forzarlo. Il movimento lento del mattino è un dialogo affettuoso con la propria energia.",
+            "en": "Gentle stretches, a few yoga poses, or a short walk awaken the body without forcing it. Slow morning movement is an affectionate dialogue with one's own energy.",
+            "es": "Estiramientos suaves, algunas posturas de yoga o un breve paseo despiertan el cuerpo sin forzarlo. El movimiento lento de la mañana es un diálogo afectuoso con la propia energía."
+          }
+        },
+        {
+          "name": {
+            "it": "Gratitudine e intenzione",
+            "en": "Gratitude and Intention",
+            "es": "Gratitud e intención"
+          },
+          "desc": {
+            "it": "Dedicare un istante a riconoscere ciò per cui sei grato e a definire un'intenzione per la giornata orienta la mente verso ciò che conta. È un piccolo rito interiore che colora di senso le ore che verranno.",
+            "en": "Taking a moment to acknowledge what you are grateful for and to set an intention for the day orients the mind toward what matters. It is a small inner rite that lends meaning to the hours ahead.",
+            "es": "Dedicar un instante a reconocer aquello por lo que estás agradecido y a definir una intención para el día orienta la mente hacia lo que importa. Es un pequeño rito interior que da sentido a las horas que vendrán."
+          }
+        }
+      ]
+    },
+    {
+      "id": "avoid",
+      "title": {
+        "it": "Da limitare con consapevolezza",
+        "en": "To Limit Mindfully",
+        "es": "Para limitar con conciencia"
+      },
+      "intro": {
+        "it": "Non si tratta di proibizioni, ma di scelte più consapevoli. Ridurre alcune abitudini permette al corpo di ritrovare leggerezza ed equilibrio, lasciando spazio a ciò che davvero nutre.",
+        "en": "This is not about prohibitions, but about more conscious choices. Easing certain habits allows the body to rediscover lightness and balance, making room for what truly nourishes.",
+        "es": "No se trata de prohibiciones, sino de elecciones más conscientes. Reducir ciertos hábitos permite al cuerpo reencontrar ligereza y equilibrio, dejando espacio a lo que de verdad nutre."
+      },
+      "items": [
+        {
+          "name": {
+            "it": "Zuccheri raffinati",
+            "en": "Refined Sugars",
+            "es": "Azúcares refinados"
+          },
+          "desc": {
+            "it": "I picchi e i cali rapidi che seguono il consumo di zuccheri raffinati possono lasciare una sensazione di stanchezza e irrequietezza. Limitandoli, molti ritrovano un'energia più stabile e una maggiore lucidità.",
+            "en": "The rapid spikes and dips that follow refined sugar can leave a feeling of fatigue and restlessness. By limiting them, many rediscover steadier energy and greater clarity.",
+            "es": "Los picos y caídas rápidas que siguen al consumo de azúcares refinados pueden dejar una sensación de cansancio e inquietud. Al limitarlos, muchos reencuentran una energía más estable y mayor lucidez."
+          }
+        },
+        {
+          "name": {
+            "it": "Oli di semi industriali",
+            "en": "Industrial Seed Oils",
+            "es": "Aceites de semillas industriales"
+          },
+          "desc": {
+            "it": "Spesso molto raffinati e presenti in tanti prodotti confezionati, questi oli sono lontani dalla naturalezza dei grassi tradizionali. Preferire fonti come l'olio extravergine d'oliva è un ritorno a una scelta più semplice e autentica.",
+            "en": "Often heavily refined and present in many packaged products, these oils are far from the naturalness of traditional fats. Favoring sources like extra-virgin olive oil is a return to a simpler, more authentic choice.",
+            "es": "A menudo muy refinados y presentes en numerosos productos envasados, estos aceites se alejan de la naturalidad de las grasas tradicionales. Preferir fuentes como el aceite de oliva virgen extra es un regreso a una elección más sencilla y auténtica."
+          }
+        },
+        {
+          "name": {
+            "it": "Eccesso di alcol",
+            "en": "Excess Alcohol",
+            "es": "Exceso de alcohol"
+          },
+          "desc": {
+            "it": "Pur essendo presente in molte tradizioni conviviali, in eccesso l'alcol può disturbare il sonno e appannare la chiarezza interiore. Moderarlo aiuta a mantenere un riposo più profondo e una mente più limpida.",
+            "en": "Though present in many convivial traditions, alcohol in excess can disturb sleep and cloud inner clarity. Moderating it helps preserve deeper rest and a more lucid mind.",
+            "es": "Aunque presente en muchas tradiciones de convivencia, el alcohol en exceso puede alterar el sueño y enturbiar la claridad interior. Moderarlo ayuda a mantener un descanso más profundo y una mente más nítida."
+          }
+        },
+        {
+          "name": {
+            "it": "Cibi ultra-processati",
+            "en": "Ultra-Processed Foods",
+            "es": "Alimentos ultraprocesados"
+          },
+          "desc": {
+            "it": "Lontani dalla loro forma originaria e ricchi di additivi, questi alimenti offrono poco al corpo oltre alla comodità. Tornare a cibi semplici e riconoscibili è un modo per onorare ciò che la natura offre.",
+            "en": "Far from their original form and rich in additives, these foods offer little to the body beyond convenience. Returning to simple, recognizable foods is a way to honor what nature provides.",
+            "es": "Alejados de su forma original y ricos en aditivos, estos alimentos ofrecen poco al cuerpo más allá de la comodidad. Volver a alimentos sencillos y reconocibles es una manera de honrar lo que la naturaleza ofrece."
+          }
+        },
+        {
+          "name": {
+            "it": "Caffeina serale",
+            "en": "Evening Caffeine",
+            "es": "Cafeína por la noche"
+          },
+          "desc": {
+            "it": "Assunta nelle ore serali, la caffeina può ostacolare il naturale scivolare verso il sonno. Spostarla alle prime ore della giornata permette al corpo di accogliere la sera con maggiore quiete.",
+            "en": "Consumed in the evening hours, caffeine can hinder the natural drift toward sleep. Shifting it to the early part of the day allows the body to welcome the night with greater calm.",
+            "es": "Consumida en las horas de la tarde y la noche, la cafeína puede dificultar el deslizamiento natural hacia el sueño. Trasladarla a las primeras horas del día permite al cuerpo recibir la noche con mayor quietud."
+          }
+        }
+      ]
+    }
+  ]
+}

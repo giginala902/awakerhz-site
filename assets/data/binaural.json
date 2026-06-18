@@ -1,0 +1,105 @@
+{
+  "intro": {
+    "it": "I battiti binaurali nascono quando due frequenze leggermente diverse raggiungono separatamente l'orecchio destro e sinistro: il cervello percepisce una terza frequenza, pari alla loro differenza, e tende ad accordarsi a essa. È un ponte tra suono e coscienza, dove la scienza dell'entrainment cerebrale incontra l'arte antica dell'ascolto interiore. Esplora le bande delle onde cerebrali e scegli la frequenza che risuona con lo stato che desideri raggiungere.",
+    "en": "Binaural beats arise when two slightly different frequencies reach the right and left ear separately: the brain perceives a third tone, equal to their difference, and tends to attune itself to it. It is a bridge between sound and consciousness, where the science of brainwave entrainment meets the ancient art of inner listening. Explore the brainwave bands and choose the frequency that resonates with the state you wish to reach.",
+    "es": "Los sonidos binaurales surgen cuando dos frecuencias ligeramente distintas llegan por separado al oído derecho e izquierdo: el cerebro percibe un tercer tono, igual a su diferencia, y tiende a sincronizarse con él. Es un puente entre sonido y conciencia, donde la ciencia del entrainment cerebral se encuentra con el arte ancestral de la escucha interior. Explora las bandas de ondas cerebrales y elige la frecuencia que resuena con el estado que deseas alcanzar."
+  },
+  "items": [
+    {
+      "id": "delta",
+      "name": "Delta",
+      "range": "0,1-4 Hz",
+      "color": "#4C1D95",
+      "state": {
+        "it": "Sonno profondo",
+        "en": "Deep sleep",
+        "es": "Sueño profundo"
+      },
+      "uses": {
+        "it": "Le onde Delta dominano durante il sonno profondo senza sogni, la fase in cui il corpo si rigenera più intensamente. Sono associate al riposo ristoratore e al lasciar andare la tensione accumulata. Sono ideali la sera, come accompagnamento per addormentarsi o per un rilassamento totale e silenzioso.",
+        "en": "Delta waves dominate during deep, dreamless sleep, the phase in which the body regenerates most intensely. They are linked to restorative rest and to releasing accumulated tension. They are ideal in the evening, as a companion for falling asleep or for total, silent relaxation.",
+        "es": "Las ondas Delta predominan durante el sueño profundo sin sueños, la fase en la que el cuerpo se regenera con mayor intensidad. Se asocian con el descanso reparador y con soltar la tensión acumulada. Son ideales por la noche, como acompañamiento para conciliar el sueño o para una relajación total y silenciosa."
+      }
+    },
+    {
+      "id": "theta",
+      "name": "Theta",
+      "range": "4-8 Hz",
+      "color": "#7C3AED",
+      "state": {
+        "it": "Meditazione profonda",
+        "en": "Deep meditation",
+        "es": "Meditación profunda"
+      },
+      "uses": {
+        "it": "Le onde Theta accompagnano gli stati di meditazione profonda, il dormiveglia e i momenti di intuizione creativa. In questa banda la mente si fa più ricettiva, le immagini interiori emergono con facilità e si dissolve lo stress. Sono perfette per la meditazione, la visualizzazione, la pratica creativa o un rilassamento profondo prima del sonno.",
+        "en": "Theta waves accompany states of deep meditation, the threshold of sleep, and moments of creative insight. In this band the mind becomes more receptive, inner imagery surfaces easily and stress dissolves. They are perfect for meditation, visualization, creative practice or deep relaxation before sleep.",
+        "es": "Las ondas Theta acompañan los estados de meditación profunda, el duermevela y los momentos de intuición creativa. En esta banda la mente se vuelve más receptiva, las imágenes interiores emergen con facilidad y el estrés se disuelve. Son perfectas para la meditación, la visualización, la práctica creativa o una relajación profunda antes de dormir."
+      }
+    },
+    {
+      "id": "schumann",
+      "name": "Risonanza Schumann",
+      "range": "7,83 Hz",
+      "color": "#A855F7",
+      "state": {
+        "it": "Sintonia naturale",
+        "en": "Natural attunement",
+        "es": "Sintonía natural"
+      },
+      "uses": {
+        "it": "La risonanza Schumann è la frequenza fondamentale del campo elettromagnetico terrestre, spesso chiamata il \"battito del pianeta\". Vibrando a 7,83 Hz, si colloca tra le onde Theta e Alpha ed è ricercata per favorire un senso di radicamento, calma e connessione con la Terra. È adatta a pratiche di centratura, meditazione e momenti in cui si cerca equilibrio e armonia interiore.",
+        "en": "The Schumann resonance is the fundamental frequency of the Earth's electromagnetic field, often called the \"heartbeat of the planet.\" Vibrating at 7.83 Hz, it sits between Theta and Alpha waves and is sought to encourage a sense of grounding, calm and connection with the Earth. It suits centering practices, meditation and moments when you seek inner balance and harmony.",
+        "es": "La resonancia Schumann es la frecuencia fundamental del campo electromagnético terrestre, a menudo llamada el \"latido del planeta\". Al vibrar a 7,83 Hz, se sitúa entre las ondas Theta y Alpha y se busca para favorecer una sensación de arraigo, calma y conexión con la Tierra. Es adecuada para prácticas de centramiento, meditación y momentos en los que se busca equilibrio y armonía interior."
+      }
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha",
+      "range": "8-13 Hz",
+      "color": "#22D3EE",
+      "state": {
+        "it": "Calma vigile",
+        "en": "Relaxed alertness",
+        "es": "Calma alerta"
+      },
+      "uses": {
+        "it": "Le onde Alpha caratterizzano uno stato di rilassamento vigile: corpo disteso e mente lucida, presente e serena. Sono associate alla riduzione dello stress, alla chiarezza mentale e a un flusso di pensiero fluido. Sono ideali per pause rigeneranti, lettura, studio leggero o per ritrovare la calma dopo una giornata intensa.",
+        "en": "Alpha waves characterize a state of relaxed alertness: a calm body and a clear, present, serene mind. They are associated with stress reduction, mental clarity and a smooth flow of thought. They are ideal for restorative breaks, reading, light study or for recovering calm after an intense day.",
+        "es": "Las ondas Alpha caracterizan un estado de relajación alerta: cuerpo distendido y mente lúcida, presente y serena. Se asocian con la reducción del estrés, la claridad mental y un flujo de pensamiento fluido. Son ideales para pausas reparadoras, lectura, estudio ligero o para recuperar la calma tras un día intenso."
+      }
+    },
+    {
+      "id": "beta",
+      "name": "Beta",
+      "range": "13-30 Hz",
+      "color": "#F59E0B",
+      "state": {
+        "it": "Concentrazione attiva",
+        "en": "Active focus",
+        "es": "Concentración activa"
+      },
+      "uses": {
+        "it": "Le onde Beta dominano lo stato di veglia attiva, quando la mente è concentrata, attenta e impegnata in compiti che richiedono ragionamento. Favoriscono la lucidità, la prontezza e la capacità di rimanere focalizzati. Sono utili durante lo studio intenso, il lavoro, la risoluzione di problemi o ogni volta che serve energia mentale e vigilanza.",
+        "en": "Beta waves dominate the active waking state, when the mind is focused, alert and engaged in tasks that require reasoning. They support clarity, readiness and the ability to stay focused. They are useful during intense study, work, problem-solving or whenever you need mental energy and alertness.",
+        "es": "Las ondas Beta predominan en el estado de vigilia activa, cuando la mente está concentrada, atenta y dedicada a tareas que requieren razonamiento. Favorecen la lucidez, la agilidad y la capacidad de mantenerse enfocados. Son útiles durante el estudio intenso, el trabajo, la resolución de problemas o siempre que se necesite energía mental y vigilancia."
+      }
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "range": ">40 Hz",
+      "color": "#FBBF24",
+      "state": {
+        "it": "Picco di consapevolezza",
+        "en": "Peak awareness",
+        "es": "Pico de conciencia"
+      },
+      "uses": {
+        "it": "Le onde Gamma sono le più rapide e si associano all'elaborazione cognitiva complessa, all'integrazione delle informazioni tra diverse aree del cervello e a momenti di intuizione lucida. Vengono collegate a picchi di attenzione, percezione acuta e a stati meditativi avanzati di profonda presenza. Sono adatte a chi cerca alta concentrazione, apprendimento intenso o un'espansione della consapevolezza.",
+        "en": "Gamma waves are the fastest and are associated with complex cognitive processing, the integration of information across different brain regions and moments of lucid insight. They are linked to peaks of attention, sharp perception and advanced meditative states of deep presence. They suit those seeking high focus, intense learning or an expansion of awareness.",
+        "es": "Las ondas Gamma son las más rápidas y se asocian con el procesamiento cognitivo complejo, la integración de información entre distintas áreas del cerebro y momentos de intuición lúcida. Se vinculan con picos de atención, percepción aguda y estados meditativos avanzados de profunda presencia. Son adecuadas para quienes buscan alta concentración, aprendizaje intenso o una expansión de la conciencia."
+      }
+    }
+  ]
+}

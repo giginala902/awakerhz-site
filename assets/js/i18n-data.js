@@ -16,7 +16,7 @@ window.I18N = {
     "nav.store": "Store",
     "nav.health": "Salute & Cibo",
     "nav.hidden": "Conoscenza Nascosta",
-    "nav.about": "Chi Siamo",
+    "nav.about": "Manifesto",
     "nav.subscribe": "▶ Iscriviti",
 
     /* hero */
@@ -37,6 +37,10 @@ window.I18N = {
     "tile.health.text": "Cibo, erbe e abitudini che elevano la tua vibrazione.",
     "tile.hidden.text": "Saggezza antica e verità dimenticate, riportate alla luce.",
     "tile.about.text": "La nostra missione: dove la scienza incontra la spiritualità.",
+    "tile.cta": "Esplora",
+    "freqtab.solfeggio": "Solfeggio",
+    "freqtab.chakra": "Chakra",
+    "freqtab.binaural": "Binaural Beats",
 
     /* frequenze */
     "freq.label": "Solfeggio e Oltre",
@@ -149,8 +153,8 @@ window.I18N = {
     "hidden.notice.text": "Stiamo raccogliendo articoli e approfondimenti. Torna presto per esplorare.",
 
     /* pagina About */
-    "aboutpage.eyebrow": "Chi Siamo",
-    "aboutpage.title": "Chi è AwakerHz",
+    "aboutpage.eyebrow": "Il Progetto",
+    "aboutpage.title": "Cos'è AwakerHz",
     "aboutpage.sub": "Un ponte tra saggezza antica e scienza moderna, attraverso il potere del suono.",
 
     /* placeholder riutilizzabili */
@@ -168,7 +172,7 @@ window.I18N = {
     "nav.store": "Tienda",
     "nav.health": "Salud & Comida",
     "nav.hidden": "Conocimiento Oculto",
-    "nav.about": "Nosotros",
+    "nav.about": "Manifiesto",
     "nav.subscribe": "▶ Suscríbete",
 
     /* hero */
@@ -189,6 +193,10 @@ window.I18N = {
     "tile.health.text": "Comida, hierbas y hábitos que elevan tu vibración.",
     "tile.hidden.text": "Sabiduría antigua y verdades olvidadas, traídas a la luz.",
     "tile.about.text": "Nuestra misión: donde la ciencia se encuentra con la espiritualidad.",
+    "tile.cta": "Explorar",
+    "freqtab.solfeggio": "Solfeggio",
+    "freqtab.chakra": "Chakras",
+    "freqtab.binaural": "Binaural Beats",
 
     /* frecuencias */
     "freq.label": "Solfeggio y Más Allá",
@@ -301,8 +309,8 @@ window.I18N = {
     "hidden.notice.text": "Estamos reuniendo artículos y análisis. Vuelve pronto para explorar.",
 
     /* página About */
-    "aboutpage.eyebrow": "Sobre Nosotros",
-    "aboutpage.title": "Sobre AwakerHz",
+    "aboutpage.eyebrow": "El Proyecto",
+    "aboutpage.title": "Qué es AwakerHz",
     "aboutpage.sub": "Un puente entre la sabiduría antigua y la ciencia moderna, a través del poder del sonido.",
 
     /* placeholder reutilizables */

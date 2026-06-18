@@ -24,8 +24,15 @@
 </header>
 
 <!-- ══════════ FREQUENCIES LIST (accordion verticale) ══════════ -->
-<section id="frequencies" style="padding-top:60px">
+<section id="frequencies" style="padding-top:40px">
   <div class="container">
+    <div class="subtabs" role="tablist">
+      <button class="subtab active" type="button" data-target="sf-solfeggio" data-i18n="freqtab.solfeggio">Solfeggio</button>
+      <button class="subtab" type="button" data-target="sf-chakra" data-i18n="freqtab.chakra">Chakras</button>
+      <button class="subtab" type="button" data-target="sf-binaural" data-i18n="freqtab.binaural">Binaural Beats</button>
+    </div>
+
+    <div class="subpanel active" id="sf-solfeggio">
     <div class="freq-list">
 
       <!-- 174 Hz -->
@@ -113,15 +120,14 @@
         </div></div>
       </div>
 
-      <!-- 528 Hz (riga come tutte le altre; aperta di default) -->
-      <div class="freq-row f528 fi expanded">
-        <div class="freq-row-head" role="button" tabindex="0" aria-expanded="true">
+      <!-- 528 Hz (riga identica alle altre) -->
+      <div class="freq-row f528 fi">
+        <div class="freq-row-head" role="button" tabindex="0" aria-expanded="false">
           <div class="freq-row-hz">528<span class="freq-row-unit">Hz</span></div>
           <div class="freq-row-main">
             <div class="freq-row-name" data-i18n="freq.528.name">The Love Frequency</div>
             <div class="freq-row-desc" data-i18n="freq.528.desc">DNA repair · Cellular transformation · The miracle tone of nature. Most searched solfeggio frequency worldwide.</div>
           </div>
-          <span class="freq-row-badge" data-i18n="freq.badge">Most Searched</span>
           <span class="freq-row-chevron" aria-hidden="true"></span>
         </div>
         <div class="freq-row-body"><div class="freq-row-body-inner">
@@ -200,6 +206,9 @@
       </div>
 
     </div>
+    </div>
+    <div class="subpanel" id="sf-chakra" data-content="chakras"></div>
+    <div class="subpanel" id="sf-binaural" data-content="binaural"></div>
   </div>
 </section>
 
@@ -248,6 +257,7 @@
 
 <script defer src="assets/js/i18n-data.js"></script>
 <script defer src="assets/js/i18n.js"></script>
+<script defer src="assets/js/content.js"></script>
 <script defer src="assets/js/site.js"></script>
 </body>
 </html>
