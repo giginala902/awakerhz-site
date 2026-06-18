@@ -240,9 +240,6 @@ section { padding:110px 48px; }
 .freq-row:hover { border-color:var(--c, var(--purple)); background:#11112a; transform:translateX(2px); }
 .freq-row.expanded { border-color:var(--c, var(--purple)); }
 
-/* riga 528 in evidenza */
-.freq-row.featured { background:linear-gradient(135deg,#0f0825,#06182a); border-left-width:4px; }
-
 /* testa cliccabile */
 .freq-row-head {
   display:flex; align-items:center; gap:20px;
@@ -253,7 +250,6 @@ section { padding:110px 48px; }
   font-size:30px; line-height:1; color:var(--c, var(--purple-l));
   min-width:88px; flex-shrink:0;
 }
-.freq-row.featured .freq-row-hz { font-size:38px; min-width:104px; }
 .freq-row-unit { font-size:14px; opacity:0.55; margin-left:3px; }
 .freq-row-main { flex:1; min-width:0; }
 .freq-row-name {
@@ -282,7 +278,6 @@ section { padding:110px 48px; }
 .freq-row-body { max-height:0; overflow:hidden; transition:max-height .42s ease; }
 .freq-row.expanded .freq-row-body { max-height:1500px; }
 .freq-row-body-inner { padding:0 22px 22px 130px; }
-.freq-row.featured .freq-row-body-inner { padding-left:146px; }
 .freq-row-sep {
   height:1px; margin-bottom:14px;
   background:linear-gradient(90deg, var(--c, var(--purple)), transparent);
@@ -292,7 +287,6 @@ section { padding:110px 48px; }
   font-size:13px; color:#8899AA; line-height:1.8;
   margin-bottom:16px; max-width:620px;
 }
-.freq-row.featured .freq-row-long { color:#A0AEC0; }
 
 /* link "guarda su youtube" (riusato) */
 .freq-watch {
@@ -310,8 +304,8 @@ section { padding:110px 48px; }
 /* responsive */
 @media (max-width:560px) {
   .freq-row-head { gap:14px; padding:16px; flex-wrap:wrap; }
-  .freq-row-hz, .freq-row.featured .freq-row-hz { font-size:26px; min-width:62px; }
-  .freq-row-body-inner, .freq-row.featured .freq-row-body-inner { padding:0 16px 18px 16px; }
+  .freq-row-hz { font-size:26px; min-width:62px; }
+  .freq-row-body-inner { padding:0 16px 18px 16px; }
 }
 
 /* ══════════════════════════════════════
@@ -495,6 +489,13 @@ footer {
 .tile-ico { font-size:26px; margin-bottom:14px; }
 .tile-title { font-family:'Cinzel',Georgia,serif; font-size:18px; color:var(--text); margin-bottom:8px; }
 .tile-text { font-size:13px; color:var(--muted); line-height:1.7; font-weight:300; }
+
+/* intro / manifesto (home) */
+.intro-section { padding:88px 48px 24px; text-align:center; }
+.intro-lead {
+  max-width:790px; margin:16px auto 0;
+  font-size:clamp(15px,1.6vw,18px); line-height:1.95; font-weight:300; color:#A0AEC0;
+}
 
 /* ══════════════════════════════════════
    RESPONSIVE
