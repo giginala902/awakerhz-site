@@ -219,102 +219,99 @@ section { padding:110px 48px; }
 ══════════════════════════════════════ */
 #frequencies { background:var(--bg); }
 
-.freq-grid {
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap:14px;
-  align-items: start;
-}
+/* ── lista verticale (accordion): una riga per frequenza ── */
+.freq-list { display:flex; flex-direction:column; gap:12px; max-width:880px; margin:0 auto; }
 
-.freq-card {
-  background:var(--bg2); border:1px solid var(--border);
-  border-radius:14px; padding:26px 18px 22px; text-align:center;
-  cursor:pointer; transition:all 0.28s; position:relative; overflow:hidden;
-  display:block; color:inherit;
-  user-select: none;
-}
-.freq-card:hover { transform:translateY(-4px); border-color: var(--c, var(--purple)); }
-.freq-card.expanded { transform:translateY(-4px); border-color: var(--c, var(--purple)); }
-
+/* colori accento per frequenza */
 .f174 { --c:#7C3AED; } .f285 { --c:#8B5CF6; } .f396 { --c:#9D4EDD; }
 .f417 { --c:#A855F7; } .f432 { --c:#C084FC; } .f639 { --c:#34D399; }
 .f741 { --c:#22D3EE; } .f852 { --c:#38BDF8; } .f963 { --c:#F59E0B; }
+.f528 { --c:#22D3EE; }
 
-.f528 {
-  --c: #22D3EE;
-  grid-column: span 2;
-  background: linear-gradient(135deg,#0f0825,#051a2a);
-  border-color: var(--cyan) !important;
+.freq-row {
+  position:relative;
+  background:var(--bg2);
+  border:1px solid var(--border);
+  border-left:3px solid var(--c, var(--purple));
+  border-radius:12px;
+  overflow:hidden;
+  transition: border-color .28s, background .28s, transform .28s, box-shadow .28s;
 }
+.freq-row:hover { border-color:var(--c, var(--purple)); background:#11112a; transform:translateX(2px); }
+.freq-row.expanded { border-color:var(--c, var(--purple)); }
 
-.freq-hz {
-  font-family:'Cinzel',Georgia,serif; font-size:36px; font-weight:700;
-  color:var(--c,var(--purple-l)); line-height:1; margin-bottom:3px;
+/* riga 528 in evidenza */
+.freq-row.featured { background:linear-gradient(135deg,#0f0825,#06182a); border-left-width:4px; }
+
+/* testa cliccabile */
+.freq-row-head {
+  display:flex; align-items:center; gap:20px;
+  padding:18px 22px; cursor:pointer; user-select:none;
 }
-.f528 .freq-hz { font-size:52px; }
-.freq-unit { font-size:16px; opacity:0.55; }
-.freq-name {
-  font-size:10px; letter-spacing:3px; color:var(--muted);
-  text-transform:uppercase; margin:10px 0 7px;
+.freq-row-hz {
+  font-family:'Cinzel',Georgia,serif; font-weight:700;
+  font-size:30px; line-height:1; color:var(--c, var(--purple-l));
+  min-width:88px; flex-shrink:0;
 }
-.freq-desc { font-size:12px; color:var(--muted); line-height:1.65; }
-.f528 .freq-desc { font-size:13px; color:#A0AEC0; }
-.freq-badge {
-  display:inline-block; margin-top:12px;
+.freq-row.featured .freq-row-hz { font-size:38px; min-width:104px; }
+.freq-row-unit { font-size:14px; opacity:0.55; margin-left:3px; }
+.freq-row-main { flex:1; min-width:0; }
+.freq-row-name {
+  font-size:11px; letter-spacing:3px; text-transform:uppercase;
+  color:var(--text); margin-bottom:5px; font-weight:600;
+}
+.freq-row-desc { font-size:13px; color:var(--muted); line-height:1.6; font-weight:300; }
+.freq-row-badge {
+  flex-shrink:0; align-self:center;
   font-size:9px; letter-spacing:2px; text-transform:uppercase;
-  padding:3px 11px; border-radius:20px;
-  background:rgba(34,211,238,0.10); color:var(--cyan-l);
+  padding:4px 12px; border-radius:20px;
+  background:rgba(34,211,238,0.10); color:var(--cyan-l); white-space:nowrap;
 }
+/* chevron (triangolo CSS, nessuna dipendenza font) */
+.freq-row-chevron {
+  flex-shrink:0; width:9px; height:9px;
+  border-right:2px solid var(--muted); border-bottom:2px solid var(--muted);
+  transform:rotate(45deg); margin-right:6px;
+  opacity:0.5; transition:transform .35s ease, opacity .2s, border-color .2s;
+}
+.freq-row:hover .freq-row-chevron { opacity:0.85; border-color:var(--c, var(--purple-l)); }
+.freq-row.expanded .freq-row-chevron { transform:rotate(-135deg); opacity:0.85; border-color:var(--c, var(--purple-l)); }
 
-.freq-expand {
-  overflow: hidden;
-  max-height: 0;
-  opacity: 0;
-  margin-top: 0;
-  transition: max-height 0.42s ease, opacity 0.32s ease, margin-top 0.32s ease;
+/* corpo collassabile — l'altezza esatta è gestita via JS (vedi site.js).
+   Il valore qui sotto è solo fallback se il JS è disattivato (evita il taglio). */
+.freq-row-body { max-height:0; overflow:hidden; transition:max-height .42s ease; }
+.freq-row.expanded .freq-row-body { max-height:1500px; }
+.freq-row-body-inner { padding:0 22px 22px 130px; }
+.freq-row.featured .freq-row-body-inner { padding-left:146px; }
+.freq-row-sep {
+  height:1px; margin-bottom:14px;
+  background:linear-gradient(90deg, var(--c, var(--purple)), transparent);
+  opacity:0.4;
 }
-.freq-card.expanded .freq-expand {
-  max-height: 480px;
-  opacity: 1;
-  margin-top: 16px;
+.freq-row-long {
+  font-size:13px; color:#8899AA; line-height:1.8;
+  margin-bottom:16px; max-width:620px;
 }
-.freq-expand-sep {
-  width: 40px; height: 1px; margin: 0 auto 12px;
-  background: linear-gradient(90deg, transparent, var(--c, var(--purple)), transparent);
-  opacity: 0.5;
-}
-.freq-expand-text {
-  font-size: 12px; color: #8899AA; line-height: 1.75;
-  margin-bottom: 14px; text-align: left;
-}
-.f528 .freq-expand-text { font-size: 13px; color: #A0AEC0; }
+.freq-row.featured .freq-row-long { color:#A0AEC0; }
+
+/* link "guarda su youtube" (riusato) */
 .freq-watch {
   display: inline-flex; align-items: center; gap: 6px;
   font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
   color: var(--c, var(--purple-l));
   text-decoration: none;
   border: 1px solid var(--c, var(--purple));
-  padding: 6px 16px; border-radius: 20px;
+  padding: 7px 16px; border-radius: 20px;
   transition: background 0.2s, transform 0.2s;
   opacity: 0.85;
 }
 .freq-watch:hover { background: rgba(255,255,255,0.06); transform: translateY(-1px); opacity: 1; }
 
-.freq-chevron {
-  display: block;
-  width: 7px; height: 7px;
-  border-right: 1.5px solid var(--muted);
-  border-bottom: 1.5px solid var(--muted);
-  transform: rotate(45deg);
-  margin: 12px auto 2px;
-  opacity: 0.4;
-  font-size: 0;
-  transition: transform 0.35s ease, opacity 0.2s;
-}
-.freq-card:hover .freq-chevron { opacity: 0.7; }
-.freq-card.expanded .freq-chevron {
-  transform: rotate(-135deg);
-  opacity: 0.7;
+/* responsive */
+@media (max-width:560px) {
+  .freq-row-head { gap:14px; padding:16px; flex-wrap:wrap; }
+  .freq-row-hz, .freq-row.featured .freq-row-hz { font-size:26px; min-width:62px; }
+  .freq-row-body-inner, .freq-row.featured .freq-row-body-inner { padding:0 16px 18px 16px; }
 }
 
 /* ══════════════════════════════════════

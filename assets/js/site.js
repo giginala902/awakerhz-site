@@ -83,7 +83,7 @@
 
     wireNav();
     wireLang();
-    wireFreqCards();
+    wireFreqRows();
     wireNewsletter();
     wireFadeIn();
 
@@ -127,33 +127,46 @@
     });
   }
 
-  /* ─────────────── frequency cards expand/collapse ─────────────── */
-  function wireFreqCards() {
-    const cards = document.querySelectorAll('.freq-card');
-    if (!cards.length) return;
-    cards.forEach(card => {
-      const c = getComputedStyle(card).getPropertyValue('--c').trim() || '#7C3AED';
-      card.addEventListener('mouseenter', () => {
-        if (!card.classList.contains('expanded')) card.style.boxShadow = `0 0 42px ${c}28`;
-      });
-      card.addEventListener('mouseleave', () => {
-        if (!card.classList.contains('expanded')) card.style.boxShadow = '';
-      });
-      card.addEventListener('click', function (e) {
-        if (e.target.tagName === 'A') return;
-        const isOpen = this.classList.contains('expanded');
-        document.querySelectorAll('.freq-card.expanded').forEach(x => {
-          x.classList.remove('expanded');
-          x.setAttribute('aria-expanded', 'false');
-          x.style.boxShadow = '';
-        });
-        if (!isOpen) {
-          this.classList.add('expanded');
-          this.setAttribute('aria-expanded', 'true');
-          this.style.boxShadow = `0 0 48px ${c}32`;
-        }
+  /* ─────────────── frequency rows: accordion verticale ─────────────── */
+  // Altezza esatta calcolata a runtime → niente clipping in nessuna lingua/larghezza.
+  function setRowOpen(row, open) {
+    const body = row.querySelector('.freq-row-body');
+    const head = row.querySelector('.freq-row-head');
+    row.classList.toggle('expanded', open);
+    if (head) head.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (body) body.style.maxHeight = open ? (body.scrollHeight + 'px') : '0px';
+  }
+
+  function recalcOpenRows() {
+    document.querySelectorAll('.freq-row.expanded .freq-row-body').forEach(b => {
+      b.style.maxHeight = 'none';
+      const h = b.scrollHeight;
+      b.style.maxHeight = h + 'px';
+    });
+  }
+
+  function wireFreqRows() {
+    const rows = document.querySelectorAll('.freq-row');
+    if (!rows.length) return;
+
+    rows.forEach(row => {
+      const head = row.querySelector('.freq-row-head');
+      if (!head) return;
+      setRowOpen(row, row.classList.contains('expanded')); // stato iniziale (es. 528)
+      const toggle = (e) => {
+        if (e.target.closest('a')) return; // lascia funzionare i link
+        setRowOpen(row, !row.classList.contains('expanded'));
+      };
+      head.addEventListener('click', toggle);
+      head.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(e); }
       });
     });
+
+    // il testo tradotto cambia altezza → ricalcola le righe aperte
+    document.addEventListener('i18n:changed', () => requestAnimationFrame(recalcOpenRows));
+    let rt;
+    addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(recalcOpenRows, 150); }, { passive: true });
   }
 
   /* ─────────────── newsletter (Formspree) ─────────────── */
