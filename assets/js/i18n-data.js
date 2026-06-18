@@ -20,8 +20,8 @@ window.I18N = {
     "nav.subscribe": "▶ Iscriviti",
 
     /* hero */
-    "hero.eyebrow": "Suono · Frequenza · Guarigione",
-    "hero.tagline": "Ogni Frequenza · Ogni Guarigione",
+    "hero.eyebrow": "Frequenze · Conoscenza · Risveglio",
+    "hero.tagline": "Risveglia corpo, mente e coscienza",
     "hero.btn_sub": "Iscriviti su YouTube",
     "hero.btn_explore": "Esplora le Frequenze ↓",
 
@@ -121,7 +121,7 @@ window.I18N = {
     "nl.note": "Gratis per sempre · Disiscriviti quando vuoi ·",
 
     /* footer */
-    "footer.tagline": "Ogni Frequenza · Ogni Guarigione",
+    "footer.tagline": "Risveglia corpo, mente e coscienza",
     "footer.copy": "© 2025 AwakerHz  ·  awakerhz.com  ·  Tutti i diritti riservati",
 
     /* pagina Libri */
@@ -176,8 +176,8 @@ window.I18N = {
     "nav.subscribe": "▶ Suscríbete",
 
     /* hero */
-    "hero.eyebrow": "Sonido · Frecuencia · Sanación",
-    "hero.tagline": "Cada Frecuencia · Cada Sanación",
+    "hero.eyebrow": "Frecuencias · Conocimiento · Despertar",
+    "hero.tagline": "Despierta cuerpo, mente y consciencia",
     "hero.btn_sub": "Suscríbete en YouTube",
     "hero.btn_explore": "Explora las Frecuencias ↓",
 
@@ -277,7 +277,7 @@ window.I18N = {
     "nl.note": "Gratis para siempre · Cancela cuando quieras ·",
 
     /* footer */
-    "footer.tagline": "Cada Frecuencia · Cada Sanación",
+    "footer.tagline": "Despierta cuerpo, mente y consciencia",
     "footer.copy": "© 2025 AwakerHz  ·  awakerhz.com  ·  Todos los derechos reservados",
 
     /* página Libros */

@@ -655,6 +655,28 @@ footer {
 .value-text { font-size:13px; color:var(--muted); line-height:1.7; font-weight:300; }
 @media (max-width:700px){ .values-grid { grid-template-columns:1fr; } }
 
+/* HERO — riga social / canali */
+.hero-socials { display:flex; flex-wrap:wrap; justify-content:center; gap:14px; margin-top:38px; }
+.hero-social {
+  width:46px; height:46px; border-radius:50%;
+  display:inline-flex; align-items:center; justify-content:center;
+  border:1px solid var(--border); color:var(--muted);
+  background:rgba(255,255,255,0.02); position:relative;
+  transition:color .28s, border-color .28s, transform .28s, box-shadow .28s;
+}
+.hero-social svg { width:21px; height:21px; display:block; }
+.hero-social:hover {
+  color:var(--cyan-l); border-color:var(--cyan); transform:translateY(-3px);
+  box-shadow:0 10px 26px -12px color-mix(in srgb, var(--cyan) 70%, transparent);
+}
+.hero-social::after {
+  content:attr(data-label); position:absolute; bottom:-23px; left:50%; transform:translateX(-50%);
+  font-size:9px; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted);
+  white-space:nowrap; opacity:0; transition:opacity .2s; pointer-events:none;
+}
+.hero-social:hover::after { opacity:.8; }
+@media (max-width:560px){ .hero-socials{ gap:11px; } .hero-social{ width:42px; height:42px; } .hero-social svg{ width:19px; height:19px; } }
+
 /* intro / manifesto (home) */
 .intro-section { padding:88px 48px 24px; text-align:center; }
 .intro-lead {

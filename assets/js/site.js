@@ -42,21 +42,19 @@
       </ul>
       <div class="nav-right">
         ${langSwitch()}
-        <a href="${YT}" target="_blank" rel="noopener" class="nav-yt" data-i18n="nav.subscribe">▶ Subscribe</a>
       </div>
       <button class="nav-ham" type="button" aria-label="Menu" id="navHam">☰</button>
     </nav>
     <div class="nav-mobile" id="mobileMenu">
       ${navLinks('')}
       ${langSwitch('lang-switch-mobile')}
-      <a href="${YT}" target="_blank" rel="noopener" class="nav-yt" data-i18n="nav.subscribe">▶ Subscribe on YouTube</a>
     </div>`;
 
   const FOOTER = `
     <footer>
       <div class="footer-bar"></div>
       <div class="footer-logo">AWAKERHZ</div>
-      <div class="footer-tagline" data-i18n="footer.tagline">Every Frequency · Every Healing</div>
+      <div class="footer-tagline" data-i18n="footer.tagline">Awaken body, mind and consciousness</div>
       <div class="footer-links">
         <a href="${YT}" target="_blank" rel="noopener">YouTube</a>
         <a href="frequencies.html" data-i18n="nav.frequencies">Frequencies</a>
@@ -85,6 +83,7 @@
     wireLang();
     wireFreqRows();
     wireSubtabs();
+    wireSocials();
     wireNewsletter();
     wireFadeIn();
 
@@ -181,6 +180,14 @@
       const target = btn.getAttribute('data-target');
       bar.querySelectorAll('.subtab').forEach(b => b.classList.toggle('active', b === btn));
       scope.querySelectorAll('.subpanel').forEach(p => p.classList.toggle('active', p.id === target));
+    });
+  }
+
+  // link social non ancora configurati (href="#") → non far saltare la pagina
+  function wireSocials() {
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('.hero-social[data-soon]');
+      if (a) e.preventDefault();
     });
   }
 
