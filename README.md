@@ -4,6 +4,18 @@ Ricostruzione **locale** del sito [awakerhz.com](https://awakerhz.com/) per cont
 mentre i file originali sono sull'altro PC/hosting. Sito **statico** (HTML + CSS + JS), senza
 build tool né dipendenze: si apre in qualsiasi browser e si pubblica su qualsiasi hosting.
 
+## Hosting: GitHub Pages (GRATIS, dal 19/06/2026)
+
+Il sito è pubblicato **gratuitamente** su **GitHub Pages**, servito **direttamente dal branch
+`main`** (root). URL: <https://giginala902.github.io/awakerhz-site/>.
+- **Pubblicare una modifica = fare `git push` su `main`.** GitHub ripubblica da solo in ~1 minuto.
+  Niente build, niente Netlify, niente crediti/abbonamenti.
+- Il file vuoto **`.nojekyll`** disattiva Jekyll così i file vengono serviti così come sono.
+- Repo **pubblico** (necessario per Pages gratis; nel repo non ci sono segreti).
+- **Dominio `awakerhz.com`:** per usarlo qui servono i DNS verso GitHub Pages
+  (A record 185.199.108/109/110/111.153, `www` → `giginala902.github.io`) + dominio custom
+  nelle impostazioni Pages (HTTPS gratis). Vedi note in chat.
+
 Stile, colori e font sono **identici** al sito attuale (palette viola/ciano, font *Cinzel* + *Raleway*).
 
 ## Struttura
