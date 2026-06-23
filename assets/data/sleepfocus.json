@@ -1,0 +1,69 @@
+{
+  "intro": {
+    "it": "Una raccolta pratica di idee su frequenze, routine e abitudini per aiutarti a rilassarti la sera e a concentrarti meglio durante il giorno. Spunti concreti, da provare con calma e adattare a te.",
+    "en": "A practical collection of ideas about frequencies, routines and habits to help you wind down in the evening and focus better during the day. Concrete tips to try calmly and adapt to yourself.",
+    "es": "Una colección práctica de ideas sobre frecuencias, rutinas y hábitos para ayudarte a relajarte por la noche y concentrarte mejor durante el día. Consejos concretos para probar con calma y adaptarlos a ti."
+  },
+  "topics": [
+    {
+      "icon": "moon",
+      "title": { "it": "Frequenze per dormire", "en": "Frequencies for sleep", "es": "Frecuencias para dormir" },
+      "blurb": { "it": "Onde delta ~0.5-4 Hz · toni morbidi · volume basso", "en": "Delta waves ~0.5-4 Hz · soft tones · low volume", "es": "Ondas delta ~0.5-4 Hz · tonos suaves · volumen bajo" },
+      "long": {
+        "it": "Per la sera molti scelgono suoni lenti e avvolgenti associati alle bande più basse: le onde delta (circa 0.5-4 Hz) sono tradizionalmente collegate al sonno profondo, mentre le theta (circa 4-8 Hz) richiamano il dormiveglia. Tieni il volume basso e i toni morbidi, così la musica resta uno sfondo e non un richiamo per l'attenzione. È pensata per aiutarti a creare un'atmosfera tranquilla, non per garantire risultati: ascolta ciò che senti più riposante per te.",
+        "en": "In the evening many people choose slow, enveloping sounds linked to the lower bands: delta waves (about 0.5-4 Hz) are traditionally associated with deep sleep, while theta (about 4-8 Hz) evokes the edge of sleep. Keep the volume low and the tones soft, so the music stays a backdrop rather than something that pulls your attention. It is meant to help you create a calm atmosphere, not to guarantee results: listen to whatever feels most restful for you.",
+        "es": "Por la noche muchas personas eligen sonidos lentos y envolventes asociados a las bandas más bajas: las ondas delta (alrededor de 0.5-4 Hz) se asocian tradicionalmente al sueño profundo, mientras que las theta (alrededor de 4-8 Hz) evocan el duermevela. Mantén el volumen bajo y los tonos suaves, para que la música quede de fondo y no reclame tu atención. Está pensada para ayudarte a crear una atmósfera tranquila, no para garantizar resultados: escucha lo que sientas más reparador para ti."
+      }
+    },
+    {
+      "icon": "spiral",
+      "title": { "it": "Routine serale rilassante", "en": "Relaxing evening routine", "es": "Rutina nocturna relajante" },
+      "blurb": { "it": "Luci basse · niente schermi · respiro lento", "en": "Low lights · no screens · slow breathing", "es": "Luces bajas · sin pantallas · respiración lenta" },
+      "long": {
+        "it": "Una routine regolare segnala al corpo che è ora di rallentare. Nell'ultima ora prima di dormire abbassa le luci, riduci gli schermi e cerca di mantenere orari costanti, anche nel weekend. Puoi aggiungere qualche minuto di respiro lento, inspirando ed espirando con calma, magari con una traccia morbida in sottofondo. L'idea è creare una sequenza familiare che ti accompagni verso il riposo, senza fretta e senza pressioni.",
+        "en": "A regular routine signals to your body that it is time to slow down. In the last hour before bed, dim the lights, cut back on screens and try to keep consistent times, even on weekends. You can add a few minutes of slow breathing, inhaling and exhaling calmly, perhaps with a soft track in the background. The idea is to build a familiar sequence that guides you toward rest, without rushing and without pressure.",
+        "es": "Una rutina regular le indica al cuerpo que es hora de bajar el ritmo. En la última hora antes de dormir baja las luces, reduce las pantallas e intenta mantener horarios constantes, incluso el fin de semana. Puedes añadir unos minutos de respiración lenta, inspirando y espirando con calma, quizá con una pista suave de fondo. La idea es crear una secuencia familiar que te acompañe hacia el descanso, sin prisas y sin presión."
+      }
+    },
+    {
+      "icon": "atom",
+      "title": { "it": "Frequenze per concentrarsi", "en": "Frequencies for focus", "es": "Frecuencias para concentrarse" },
+      "blurb": { "it": "Onde alpha ~8-12 Hz · beta ~13-30 Hz · suono costante", "en": "Alpha waves ~8-12 Hz · beta ~13-30 Hz · steady sound", "es": "Ondas alpha ~8-12 Hz · beta ~13-30 Hz · sonido constante" },
+      "long": {
+        "it": "Quando vuoi lavorare o studiare, molti preferiscono suoni più stabili e meno emotivi rispetto a quelli serali. Le onde alpha (circa 8-12 Hz) sono tradizionalmente associate a un relax vigile e a un focus calmo, mentre le beta (circa 13-30 Hz) richiamano uno stato di maggiore vigilanza. Scegli una traccia costante, senza picchi o melodie che catturano l'attenzione, e usala come sottofondo regolare. È pensata per aiutarti a creare un ambiente di lavoro più ordinato, non per sostituire pause e riposo.",
+        "en": "When you want to work or study, many people prefer steadier, less emotional sounds than the evening ones. Alpha waves (about 8-12 Hz) are traditionally associated with alert relaxation and calm focus, while beta (about 13-30 Hz) evokes a more alert state. Choose a steady track, without peaks or melodies that grab your attention, and use it as a regular backdrop. It is meant to help you create a tidier working environment, not to replace breaks and rest.",
+        "es": "Cuando quieres trabajar o estudiar, muchas personas prefieren sonidos más estables y menos emocionales que los de la noche. Las ondas alpha (alrededor de 8-12 Hz) se asocian tradicionalmente con una relajación atenta y un foco tranquilo, mientras que las beta (alrededor de 13-30 Hz) evocan un estado de mayor vigilancia. Elige una pista constante, sin picos ni melodías que capten tu atención, y úsala como fondo regular. Está pensada para ayudarte a crear un entorno de trabajo más ordenado, no para sustituir las pausas y el descanso."
+      }
+    },
+    {
+      "icon": "star",
+      "title": { "it": "Abitudini di deep work", "en": "Deep work habits", "es": "Hábitos de trabajo profundo" },
+      "blurb": { "it": "Mono-tasking · blocchi di tempo · meno distrazioni", "en": "Mono-tasking · time blocks · fewer distractions", "es": "Mono-tarea · bloques de tiempo · menos distracciones" },
+      "long": {
+        "it": "La concentrazione profonda si costruisce riducendo le interruzioni più che aggiungendo sforzo. Lavora su una cosa alla volta e organizza la giornata in blocchi di tempo dedicati, ad esempio sessioni tipo pomodoro con brevi pause programmate. Prima di iniziare, allontana le distrazioni evidenti: silenzia le notifiche, chiudi le schede inutili e tieni a portata solo ciò che ti serve. Una traccia in sottofondo può segnare l'inizio del blocco e aiutarti a entrare nel ritmo.",
+        "en": "Deep focus is built by reducing interruptions more than by adding effort. Work on one thing at a time and organize your day into dedicated time blocks, for example pomodoro-style sessions with short planned breaks. Before you start, remove the obvious distractions: silence notifications, close unnecessary tabs and keep only what you need within reach. A background track can mark the start of the block and help you settle into a rhythm.",
+        "es": "La concentración profunda se construye reduciendo las interrupciones más que añadiendo esfuerzo. Trabaja en una sola cosa a la vez y organiza el día en bloques de tiempo dedicados, por ejemplo sesiones tipo pomodoro con pausas breves planificadas. Antes de empezar, aleja las distracciones evidentes: silencia las notificaciones, cierra las pestañas innecesarias y ten a mano solo lo que necesitas. Una pista de fondo puede marcar el inicio del bloque y ayudarte a entrar en ritmo."
+      }
+    },
+    {
+      "icon": "wave",
+      "title": { "it": "Come ascoltare", "en": "How to listen", "es": "Cómo escuchar" },
+      "blurb": { "it": "Cuffie comode · volume basso · in sottofondo", "en": "Comfortable headphones · low volume · in the background", "es": "Auriculares cómodos · volumen bajo · de fondo" },
+      "long": {
+        "it": "Il modo in cui ascolti conta quanto la traccia che scegli. Usa cuffie comode o anche solo le casse, e tieni il volume basso: l'obiettivo è un sottofondo presente ma non invadente. Lascia che la musica resti dietro a ciò che stai facendo, senza alzarla per coprire altri rumori. Se a un certo punto la noti troppo, prova ad abbassarla ancora: spesso meno volume rende l'ascolto più piacevole e meno faticoso nel tempo.",
+        "en": "How you listen matters as much as the track you choose. Use comfortable headphones or even just speakers, and keep the volume low: the goal is a backdrop that is present but not intrusive. Let the music stay behind what you are doing, without turning it up to cover other noises. If at some point you notice it too much, try lowering it further: often less volume makes listening more pleasant and less tiring over time.",
+        "es": "La forma en que escuchas importa tanto como la pista que eliges. Usa auriculares cómodos o incluso solo los altavoces, y mantén el volumen bajo: el objetivo es un fondo presente pero no invasivo. Deja que la música quede detrás de lo que estás haciendo, sin subirla para tapar otros ruidos. Si en algún momento la notas demasiado, prueba a bajarla aún más: a menudo menos volumen hace la escucha más agradable y menos cansada con el tiempo."
+      }
+    },
+    {
+      "icon": "key",
+      "title": { "it": "Errori comuni da evitare", "en": "Common mistakes to avoid", "es": "Errores comunes a evitar" },
+      "blurb": { "it": "Volume alto · schermi a letto · aspettative magiche", "en": "High volume · screens in bed · magical expectations", "es": "Volumen alto · pantallas en la cama · expectativas mágicas" },
+      "long": {
+        "it": "Alcuni passi falsi rendono l'ascolto meno utile di quanto potrebbe essere. Evita il volume troppo alto, soprattutto la sera, e non usare gli schermi a letto sperando che la musica compensi. Non aspettarti effetti immediati o garantiti: questi suoni possono aiutarti a creare un'atmosfera, ma non sostituiscono buone abitudini di sonno e concentrazione. Infine, non cambiare traccia in continuazione: dai a ogni scelta il tempo di accompagnarti, e tieni ciò che senti funzionare per te.",
+        "en": "A few missteps make listening less useful than it could be. Avoid setting the volume too high, especially in the evening, and do not use screens in bed hoping the music will make up for it. Do not expect immediate or guaranteed effects: these sounds can help you create an atmosphere, but they do not replace good sleep and focus habits. Finally, do not keep switching tracks: give each choice time to settle, and keep what feels like it works for you.",
+        "es": "Algunos pasos en falso hacen que la escucha sea menos útil de lo que podría ser. Evita poner el volumen demasiado alto, sobre todo por la noche, y no uses pantallas en la cama esperando que la música lo compense. No esperes efectos inmediatos ni garantizados: estos sonidos pueden ayudarte a crear una atmósfera, pero no sustituyen los buenos hábitos de sueño y concentración. Por último, no cambies de pista continuamente: da tiempo a cada elección para acompañarte y conserva lo que sientas que te funciona."
+      }
+    }
+  ]
+}

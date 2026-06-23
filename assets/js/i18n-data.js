@@ -44,6 +44,10 @@ window.I18N = {
 
     /* frequenze */
     "freq.label": "Solfeggio e Oltre",
+    "freqtab.sleepfocus": "Sonno e Focus",
+    "sec.hidden.intro": "Sapienza antica, geometria sacra e simbolismo che il tempo ha messo da parte, riportati alla luce con rispetto per il mistero e onestà verso la ragione. Qui scienza e storia dimenticate tornano a essere spunti per osservare il mondo con occhi nuovi.",
+    "sec.health.intro": "Cibo, erbe e piccole abitudini che molti scelgono per accompagnare energia, calma e benessere nella vita di tutti i giorni. Idee pratiche e semplici, da provare e adattare al tuo ritmo.",
+    "sec.store.intro": "Strumenti, stampe e risorse a tema frequenze e geometria, pensati per accompagnare la tua pratica di ascolto, focus e rilassamento. Oggetti semplici da tenere vicino, ogni giorno.",
     "freq.title": "Frequenze di Guarigione",
     "freq.sub": "Ogni frequenza risuona con uno strato distinto del tuo essere, dalla calma profonda al risveglio interiore. Tradizione Solfeggio e ascolto consapevole, senza promesse: solo un invito a respirare e lasciar fluire.",
     "freq.about.title": "Cosa sono le frequenze Solfeggio?",
@@ -204,6 +208,10 @@ window.I18N = {
 
     /* frecuencias */
     "freq.label": "Solfeggio y Más Allá",
+    "freqtab.sleepfocus": "Sueño y Enfoque",
+    "sec.hidden.intro": "Sabiduría antigua, geometría sagrada y simbolismo que el tiempo dejó de lado, traídos de nuevo a la luz con respeto por el misterio y honestidad hacia la razón. Aquí la ciencia y la historia olvidadas vuelven a ser una forma nueva de mirar el mundo.",
+    "sec.health.intro": "Comida, hierbas y pequeños hábitos que muchos eligen para acompañar la energía, la calma y el bienestar diario. Ideas prácticas y sencillas para probar y adaptar a tu propio ritmo.",
+    "sec.store.intro": "Herramientas, láminas y recursos con temática de frecuencias y geometría, pensados para acompañar tu práctica de escucha, concentración y relajación. Objetos sencillos para tener cerca cada día.",
     "freq.title": "Frecuencias de Sanación",
     "freq.sub": "Cada frecuencia resuena con una capa distinta de tu ser, desde la calma profunda hasta el despertar interior. Tradición Solfeggio y escucha consciente, sin promesas: solo una invitación a respirar y dejar fluir.",
     "freq.about.title": "¿Qué son las frecuencias Solfeggio?",

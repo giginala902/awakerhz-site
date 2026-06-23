@@ -120,6 +120,19 @@
     mount.innerHTML = `<p class="cat-intro">${esc(t(d.intro))}</p><div class="freq-list">${rows}</div>`;
   }
 
+  /* ── SLEEP & FOCUS (consigli pratici, stesso stile accordion) ── */
+  async function renderSleepFocus(mount) {
+    const d = await load('sleepfocus');
+    const rows = d.topics.map(tp => infoRow({
+      cls: 'is-topic',
+      icon: iconSvg(tp.icon),
+      name: t(tp.title),
+      sub: t(tp.blurb),
+      long: t(tp.long)
+    })).join('');
+    mount.innerHTML = `<p class="cat-intro">${esc(t(d.intro))}</p><div class="freq-list">${rows}</div>`;
+  }
+
   /* ── TABBED (store / food / books) ── */
   function cardProduct(p) {
     return `<div class="content-card">
@@ -189,6 +202,7 @@
     chakras: renderChakras,
     binaural: renderBinaural,
     hidden: renderHidden,
+    sleepfocus: renderSleepFocus,
     about: renderAbout,
     store: (m) => renderTabbed(m, 'store', cardProduct),
     food: (m) => renderTabbed(m, 'food', cardFood, { disclaimer: true, rows: true }),
