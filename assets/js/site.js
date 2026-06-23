@@ -177,6 +177,39 @@
     document.addEventListener('i18n:changed', () => requestAnimationFrame(recalcOpenRows));
     let rt;
     addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(recalcOpenRows, 150); }, { passive: true });
+
+    // deep-link: apri la scheda della frequenza dall'URL (#528, #freq-528) o scrolla a una sezione (#how-to-use, #about-frequencies)
+    function openFreqFromHash() {
+      let h = '';
+      try { h = decodeURIComponent((location.hash || '').replace(/^#/, '')); } catch (e) { h = (location.hash || '').replace(/^#/, ''); }
+      h = h.toLowerCase().trim();
+      if (!h) return;
+      const num = (h.match(/\d{2,4}/) || [])[0];
+      let target = null;
+      if (num) {
+        target = document.querySelector('.f' + num) ||
+          [].slice.call(document.querySelectorAll('.freq-row')).find(function (r) {
+            const hz = r.querySelector('.freq-row-hz');
+            return hz && hz.textContent.replace(/\D/g, '') === num;
+          });
+      }
+      if (!target) target = document.getElementById(h);
+      if (!target) return;
+      const panel = target.closest('.subpanel');
+      if (panel && !panel.classList.contains('active')) {
+        const tb = document.querySelector('.subtab[data-target="' + panel.id + '"]');
+        if (tb) tb.click();
+      }
+      if (target.classList.contains('freq-row')) {
+        const scope = target.closest('.freq-list') || document;
+        scope.querySelectorAll('.freq-row.expanded').forEach(function (r) { if (r !== target) setRowOpen(r, false); });
+        setRowOpen(target, true);
+      }
+      requestAnimationFrame(function () { target.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
+    }
+    openFreqFromHash();
+    addEventListener('hashchange', openFreqFromHash);
+    document.addEventListener('content:rendered', function () { requestAnimationFrame(openFreqFromHash); });
   }
 
   // sotto-tab (pills): mostra il pannello corrispondente, scope = genitore della barra

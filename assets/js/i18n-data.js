@@ -46,6 +46,10 @@ window.I18N = {
     "freq.label": "Solfeggio e Oltre",
     "freq.title": "Frequenze di Guarigione",
     "freq.sub": "Ogni frequenza risuona con uno strato distinto del tuo essere, dalla calma profonda al risveglio interiore. Tradizione Solfeggio e ascolto consapevole, senza promesse: solo un invito a respirare e lasciar fluire.",
+    "freq.about.title": "Cosa sono le frequenze Solfeggio?",
+    "freq.about.text": "Le frequenze Solfeggio sono una serie di toni (da 174 a 963 Hz) che affondano in un'antica tradizione musicale, ognuno storicamente legato a una qualità diversa, dal radicamento e la calma alla concentrazione e all'apertura. Non sono una medicina: pensale come un'atmosfera sonora per rilassarti, concentrarti o addormentarti. Qui sotto trovi a cosa è tradizionalmente associata ciascuna.",
+    "freq.howto.title": "Come usarle",
+    "freq.howto.text": "Usa le cuffie per un tono più pulito, tieni il volume basso e confortevole, e lascia scorrere il suono in sottofondo mentre ti rilassi, lavori, studi, fai yoga o ti addormenti. Non c'è nulla da fare: ascolta e respira. Sessioni da 30 minuti a qualche ora funzionano bene; scegli la frequenza il cui tema si adatta al tuo momento.",
     "freq.badge": "Più Cercata",
     "freq.watch": "▶ Guarda su YouTube",
 
@@ -202,6 +206,10 @@ window.I18N = {
     "freq.label": "Solfeggio y Más Allá",
     "freq.title": "Frecuencias de Sanación",
     "freq.sub": "Cada frecuencia resuena con una capa distinta de tu ser, desde la calma profunda hasta el despertar interior. Tradición Solfeggio y escucha consciente, sin promesas: solo una invitación a respirar y dejar fluir.",
+    "freq.about.title": "¿Qué son las frecuencias Solfeggio?",
+    "freq.about.text": "Las frecuencias Solfeggio son un conjunto de tonos (de 174 a 963 Hz) que provienen de una antigua tradición musical, cada uno ligado históricamente a una cualidad distinta, del enraizamiento y la calma a la concentración y la apertura. No son medicina: piénsalas como una atmósfera sonora para relajarte, concentrarte o dormirte. Abajo encontrarás con qué se asocia tradicionalmente cada una.",
+    "freq.howto.title": "Cómo usarlas",
+    "freq.howto.text": "Usa auriculares para un tono más limpio, mantén el volumen bajo y cómodo, y deja sonar la música de fondo mientras te relajas, trabajas, estudias, haces yoga o te duermes. No hay nada que hacer: solo escucha y respira. Sesiones de 30 minutos a unas horas funcionan bien; elige la frecuencia cuyo tema encaje con tu momento.",
     "freq.badge": "Más Buscada",
     "freq.watch": "▶ Ver en YouTube",
 
