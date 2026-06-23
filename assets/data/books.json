@@ -14,7 +14,7 @@
       },
       "books": [
         {
-          "title": "In arrivo",
+          "title": "Coming Soon",
           "author": "AwakerHz",
           "why": {
             "it": "Una guida pratica alle frequenze di guarigione: come ascoltarle, perché funzionano e in che modo intrecciare suono e respiro nella vita di ogni giorno.",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "title": "In arrivo",
+          "title": "Coming Soon",
           "author": "AwakerHz",
           "why": {
             "it": "Un viaggio illustrato tra le Solfeggio e la geometria del cosmo, per riscoprire l'armonia nascosta che lega numeri, vibrazioni e coscienza.",
@@ -32,72 +32,12 @@
           }
         },
         {
-          "title": "In arrivo",
+          "title": "Coming Soon",
           "author": "AwakerHz",
           "why": {
             "it": "Un diario di meditazione di 40 giorni con esercizi, intenzioni e tracce sonore, per trasformare l'ascolto in una vera pratica di risveglio interiore.",
             "en": "A 40-day meditation journal with exercises, intentions, and sound tracks, turning listening into a true practice of inner awakening.",
             "es": "Un diario de meditación de 40 días con ejercicios, intenciones y pistas sonoras, para transformar la escucha en una verdadera práctica de despertar interior."
-          }
-        }
-      ]
-    },
-    {
-      "id": "recommended",
-      "title": {
-        "it": "Letture Consigliate",
-        "en": "Recommended Reading",
-        "es": "Lecturas Recomendadas"
-      },
-      "intro": {
-        "it": "Una selezione di opere che hanno illuminato il mio cammino: classici sulla coscienza, l'energia e il potere del suono, scelti per chi vuole approfondire.",
-        "en": "A selection of works that have illuminated my path: classics on consciousness, energy, and the power of sound, chosen for those who wish to go deeper.",
-        "es": "Una selección de obras que han iluminado mi camino: clásicos sobre la consciencia, la energía y el poder del sonido, elegidos para quien desea profundizar."
-      },
-      "books": [
-        {
-          "title": "The Power of Now",
-          "author": "Eckhart Tolle",
-          "why": {
-            "it": "Un classico moderno della spiritualità che insegna a vivere nel presente, dissolvendo l'identificazione con la mente per ritrovare la pace interiore.",
-            "en": "A modern spiritual classic that teaches living in the present, dissolving identification with the mind to rediscover inner peace.",
-            "es": "Un clásico moderno de la espiritualidad que enseña a vivir en el presente, disolviendo la identificación con la mente para reencontrar la paz interior."
-          }
-        },
-        {
-          "title": "The Hidden Messages in Water",
-          "author": "Masaru Emoto",
-          "why": {
-            "it": "Un'esplorazione affascinante di come intenzione, parole e suono possano influenzare la materia, perfetta per chi indaga il legame tra vibrazione e realtà.",
-            "en": "A fascinating exploration of how intention, words, and sound may shape matter, perfect for those investigating the link between vibration and reality.",
-            "es": "Una exploración fascinante de cómo la intención, las palabras y el sonido pueden influir en la materia, ideal para quien indaga el vínculo entre vibración y realidad."
-          }
-        },
-        {
-          "title": "The Body Keeps the Score",
-          "author": "Bessel van der Kolk",
-          "why": {
-            "it": "Un testo fondamentale sul rapporto tra corpo, mente e benessere, che mostra come ritmo, respiro e suono possano sostenere la guarigione del trauma.",
-            "en": "A landmark work on the bond between body, mind, and wellbeing, showing how rhythm, breath, and sound can support healing from trauma.",
-            "es": "Una obra fundamental sobre la relación entre cuerpo, mente y bienestar, que muestra cómo el ritmo, la respiración y el sonido pueden apoyar la sanación del trauma."
-          }
-        },
-        {
-          "title": "The Tao of Physics",
-          "author": "Fritjof Capra",
-          "why": {
-            "it": "Il ponte per eccellenza tra fisica moderna e misticismo orientale, ideale per chi cerca l'incontro tra scienza e sapienza spirituale.",
-            "en": "The quintessential bridge between modern physics and Eastern mysticism, ideal for those seeking where science and spiritual wisdom meet.",
-            "es": "El puente por excelencia entre la física moderna y el misticismo oriental, ideal para quien busca el encuentro entre ciencia y sabiduría espiritual."
-          }
-        },
-        {
-          "title": "The Mozart Effect",
-          "author": "Don Campbell",
-          "why": {
-            "it": "Un viaggio accessibile nel potere della musica e delle frequenze sul corpo e sulla mente, in piena sintonia con la missione di AwakerHz.",
-            "en": "An accessible journey into the power of music and frequency over body and mind, in deep harmony with the AwakerHz mission.",
-            "es": "Un recorrido accesible por el poder de la música y las frecuencias sobre el cuerpo y la mente, en plena sintonía con la misión de AwakerHz."
           }
         }
       ]

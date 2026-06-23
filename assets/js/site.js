@@ -63,7 +63,7 @@
         <a href="about.html" data-i18n="nav.about">Manifesto</a>
         <a href="mailto:contact@awakerhz.com">contact@awakerhz.com</a>
       </div>
-      <div class="footer-copy" data-i18n="footer.copy">© 2025 AwakerHz  ·  awakerhz.com  ·  All rights reserved</div>
+      <div class="footer-copy" data-i18n="footer.copy">© 2026 AwakerHz  ·  awakerhz.com  ·  All rights reserved</div>
     </footer>`;
 
   /* ─────────────── MOUNT ─────────────── */
@@ -146,20 +146,29 @@
   }
 
   // delega: funziona anche per le righe generate dinamicamente (chakra/binaural)
+  // apre una riga e CHIUDE le altre dello stesso gruppo (accordion a singola apertura)
+  function toggleRowExclusive(row) {
+    if (!row) return;
+    const willOpen = !row.classList.contains('expanded');
+    if (willOpen) {
+      const scope = row.closest('.freq-list') || document;
+      scope.querySelectorAll('.freq-row.expanded').forEach(r => { if (r !== row) setRowOpen(r, false); });
+    }
+    setRowOpen(row, willOpen);
+  }
+
   function wireFreqRows() {
     document.addEventListener('click', (e) => {
       const head = e.target.closest('.freq-row-head');
       if (!head || e.target.closest('a')) return;
-      const row = head.closest('.freq-row');
-      setRowOpen(row, !row.classList.contains('expanded'));
+      toggleRowExclusive(head.closest('.freq-row'));
     });
     document.addEventListener('keydown', (e) => {
       if (e.key !== 'Enter' && e.key !== ' ') return;
       const head = e.target.closest('.freq-row-head');
       if (!head) return;
       e.preventDefault();
-      const row = head.closest('.freq-row');
-      setRowOpen(row, !row.classList.contains('expanded'));
+      toggleRowExclusive(head.closest('.freq-row'));
     });
     // righe aperte staticamente all'avvio
     document.querySelectorAll('.freq-row.expanded').forEach(r => setRowOpen(r, true));
@@ -180,6 +189,8 @@
       const target = btn.getAttribute('data-target');
       bar.querySelectorAll('.subtab').forEach(b => b.classList.toggle('active', b === btn));
       scope.querySelectorAll('.subpanel').forEach(p => p.classList.toggle('active', p.id === target));
+      // reset: cambiando tab, chiudi tutte le righe aperte
+      scope.querySelectorAll('.freq-row.expanded').forEach(r => setRowOpen(r, false));
     });
   }
 

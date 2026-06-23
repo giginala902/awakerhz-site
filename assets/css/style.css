@@ -8,6 +8,9 @@
    RESET & TOKENS
 ══════════════════════════════════════ */
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+/* niente riquadro blu/grigio al tap su mobile (mantiene il focus per tastiera) */
+html, body { -webkit-tap-highlight-color: transparent; }
+a, button, [role="button"], summary, .hero-social, .freq-row-head, .subtab, .lang-btn, .nav-ham, .at-tile { -webkit-tap-highlight-color: transparent; }
 
 :root {
   --bg:       #070714;
@@ -287,6 +290,14 @@ section { padding:110px 48px; }
   font-size:13px; color:#8899AA; line-height:1.8;
   margin-bottom:16px; max-width:620px;
 }
+
+/* variante "info" (Hidden Knowledge / Food): icona opzionale, niente colonna Hz */
+.freq-row.is-info .freq-row-head { gap:16px; }
+.freq-row-ico { width:34px; height:34px; flex-shrink:0; color:var(--c, var(--purple-l)); }
+.freq-row-ico svg { width:100%; height:100%; display:block; }
+.freq-row.is-info .freq-row-name { font-size:12px; }
+.freq-row.is-info .freq-row-body-inner { padding:0 24px 24px 24px; }
+@media (max-width:560px){ .freq-row.is-info .freq-row-body-inner { padding:0 16px 18px 16px; } }
 
 /* link "guarda su youtube" (riusato) */
 .freq-watch {

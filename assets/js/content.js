@@ -45,6 +45,24 @@
     </div>`;
   }
 
+  /* ── riga accordion "info" (hidden / food): icona opzionale, niente colonna Hz ── */
+  function infoRow(o) {
+    return `<div class="freq-row is-info ${o.cls || ''}">
+      <div class="freq-row-head" role="button" tabindex="0" aria-expanded="false">
+        ${o.icon ? `<div class="freq-row-ico">${o.icon}</div>` : ''}
+        <div class="freq-row-main">
+          <div class="freq-row-name">${esc(o.name)}</div>
+          ${o.sub ? `<div class="freq-row-desc">${esc(o.sub)}</div>` : ''}
+        </div>
+        <span class="freq-row-chevron" aria-hidden="true"></span>
+      </div>
+      <div class="freq-row-body"><div class="freq-row-body-inner">
+        <div class="freq-row-sep"></div>
+        <p class="freq-row-long">${esc(o.long || o.sub || '')}</p>
+      </div></div>
+    </div>`;
+  }
+
   /* ── CHAKRA ── */
   async function renderChakras(mount) {
     const d = await load('chakras');
@@ -92,13 +110,14 @@
   }
   async function renderHidden(mount) {
     const d = await load('hidden');
-    const cards = d.topics.map(tp => `
-      <div class="topic-card">
-        <div class="topic-ico">${iconSvg(tp.icon)}</div>
-        <h3 class="topic-title">${esc(t(tp.title))}</h3>
-        <p class="topic-text">${esc(t(tp.blurb))}</p>
-      </div>`).join('');
-    mount.innerHTML = `<p class="cat-intro">${esc(t(d.intro))}</p><div class="topic-grid">${cards}</div>`;
+    const rows = d.topics.map(tp => infoRow({
+      cls: 'is-topic',
+      icon: iconSvg(tp.icon),
+      name: t(tp.title),
+      sub: t(tp.blurb),
+      long: t(tp.long)
+    })).join('');
+    mount.innerHTML = `<p class="cat-intro">${esc(t(d.intro))}</p><div class="freq-list">${rows}</div>`;
   }
 
   /* ── TABBED (store / food / books) ── */
@@ -112,11 +131,7 @@
       </div></div>`;
   }
   function cardFood(it) {
-    return `<div class="content-card">
-      <div class="cc-body">
-        <h3 class="cc-title">${esc(t(it.name))}</h3>
-        <p class="cc-text">${esc(t(it.desc))}</p>
-      </div></div>`;
+    return infoRow({ cls: 'is-food', name: t(it.name), sub: t(it.desc), long: t(it.long) });
   }
   function cardBook(b) {
     return `<div class="content-card">
@@ -137,12 +152,13 @@
     const bar = secs.map((s, i) =>
       `<button class="subtab${i === 0 ? ' active' : ''}" data-target="${ids[i]}" type="button">${esc(t(s.title))}</button>`
     ).join('');
+    const rowsMode = !!(opts && opts.rows);
     const panels = secs.map((s, i) => {
       const items = (s.products || s.items || s.books || []);
-      const cards = items.map(cardFn).join('');
+      const inner = items.map(cardFn).join('');
       return `<div class="subpanel${i === 0 ? ' active' : ''}" id="${ids[i]}">
         <p class="cat-intro">${esc(t(s.intro))}</p>
-        <div class="card-grid">${cards}</div>
+        <div class="${rowsMode ? 'freq-list' : 'card-grid'}">${inner}</div>
       </div>`;
     }).join('');
     const disclaimer = (opts && opts.disclaimer && d.disclaimer)
@@ -175,7 +191,7 @@
     hidden: renderHidden,
     about: renderAbout,
     store: (m) => renderTabbed(m, 'store', cardProduct),
-    food: (m) => renderTabbed(m, 'food', cardFood, { disclaimer: true }),
+    food: (m) => renderTabbed(m, 'food', cardFood, { disclaimer: true, rows: true }),
     books: (m) => renderTabbed(m, 'books', cardBook)
   };
 
