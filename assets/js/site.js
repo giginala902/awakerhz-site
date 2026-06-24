@@ -93,6 +93,7 @@
     wireNewsletter();
     wireFadeIn();
     cookieBanner();
+    wireShare();
 
     if (window.I18n) window.I18n.init();
   }
@@ -286,6 +287,24 @@
     document.body.appendChild(bar);
     const ok = document.getElementById('awk-cookie-ok');
     if (ok) ok.addEventListener('click', function () { try { localStorage.setItem('awk_cookie_ok', '1'); } catch (e) {} bar.remove(); });
+  }
+
+  /* ─────────────── share (YouTube link): Web Share su mobile, copia link su desktop ─────────────── */
+  function wireShare() {
+    document.addEventListener('click', function (e) {
+      const b = e.target.closest('[data-share]');
+      if (!b) return;
+      e.preventDefault();
+      const url = b.getAttribute('data-share');
+      if (navigator.share) { navigator.share({ title: 'AwakerHz', url: url }).catch(function () {}); return; }
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(function () {
+          const t = b.textContent; b.textContent = 'Link copied'; setTimeout(function () { b.textContent = t; }, 1800);
+        }).catch(function () { window.open(url, '_blank'); });
+        return;
+      }
+      window.open(url, '_blank');
+    });
   }
 
   /* go */
