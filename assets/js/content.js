@@ -120,6 +120,25 @@
     mount.innerHTML = `<p class="cat-intro">${esc(t(d.intro))}</p><div class="freq-list">${rows}</div>`;
   }
 
+  /* ── VIDEOS (Caricamenti Recenti, auto da videos.json: miniatura cliccabile -> YouTube) ── */
+  async function renderVideos(mount) {
+    let d;
+    try { d = await load('videos'); } catch (e) { mount.innerHTML = ''; return; }
+    const vids = (d && d.videos) || [];
+    if (!vids.length) { mount.innerHTML = ''; return; }
+    mount.innerHTML = vids.map(function (v) {
+      const tag = v.hz ? '<span class="video-tag">' + esc(v.hz) + '</span> ' : '';
+      return '<a class="video-card fi" href="https://www.youtube.com/watch?v=' + esc(v.id) + '" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block">'
+        + '<div class="video-thumb" style="position:relative;aspect-ratio:16/9;overflow:hidden">'
+        + '<img src="https://i.ytimg.com/vi/' + esc(v.id) + '/hqdefault.jpg" alt="' + esc(v.title) + '" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">'
+        + '<span aria-hidden="true" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(7,7,20,.25)"><span style="width:54px;height:54px;border-radius:50%;background:rgba(124,58,237,.92);display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span></span>'
+        + '</div>'
+        + '<div class="video-info"><div class="video-title">' + esc(v.title) + '</div>'
+        + '<div class="video-meta">' + tag + '<span>' + esc(v.duration || '') + '</span></div></div>'
+        + '</a>';
+    }).join('');
+  }
+
   /* ── topics accordion generico (sleep / focus) ── */
   async function renderTopics(mount, name) {
     const d = await load(name);
@@ -202,6 +221,7 @@
     chakras: renderChakras,
     binaural: renderBinaural,
     hidden: renderHidden,
+    videos: renderVideos,
     sleep: (m) => renderTopics(m, 'sleep'),
     focus: (m) => renderTopics(m, 'focus'),
     about: renderAbout,
