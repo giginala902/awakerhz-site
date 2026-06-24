@@ -63,6 +63,12 @@
         <a href="about.html" data-i18n="nav.about">Manifesto</a>
         <a href="mailto:contact@awakerhz.com">contact@awakerhz.com</a>
       </div>
+      <div class="footer-links" style="margin-top:8px;font-size:.82rem;opacity:.75">
+        <a href="privacy.html">Privacy</a>
+        <a href="cookies.html">Cookie Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </div>
       <div class="footer-copy" data-i18n="footer.copy">© 2026 AwakerHz  ·  awakerhz.com  ·  All rights reserved</div>
     </footer>`;
 
@@ -86,6 +92,7 @@
     wireSocials();
     wireNewsletter();
     wireFadeIn();
+    cookieBanner();
 
     if (window.I18n) window.I18n.init();
   }
@@ -267,6 +274,18 @@
       entries.forEach(en => { if (en.isIntersecting) en.target.classList.add('vis'); });
     }, { threshold: 0.08 });
     els.forEach(el => io.observe(el));
+  }
+
+  /* ─────────────── cookie notice (informativo, scelta salvata in localStorage) ─────────────── */
+  function cookieBanner() {
+    try { if (localStorage.getItem('awk_cookie_ok')) return; } catch (e) { return; }
+    const bar = document.createElement('div');
+    bar.id = 'awk-cookie';
+    bar.style.cssText = 'position:fixed;left:0;right:0;bottom:0;z-index:9999;background:rgba(7,7,20,.97);border-top:1px solid rgba(124,58,237,.4);padding:13px 18px;display:flex;gap:14px;align-items:center;justify-content:center;flex-wrap:wrap;font-size:.88rem;color:#cdd3e0';
+    bar.innerHTML = 'We use only essential functionality plus some third-party embeds (YouTube, Google Fonts). See our <a href="cookies.html" style="color:var(--purple-l,#A855F7)">Cookie Policy</a>. <button id="awk-cookie-ok" class="btn btn-primary" style="padding:7px 18px;white-space:nowrap">Got it</button>';
+    document.body.appendChild(bar);
+    const ok = document.getElementById('awk-cookie-ok');
+    if (ok) ok.addEventListener('click', function () { try { localStorage.setItem('awk_cookie_ok', '1'); } catch (e) {} bar.remove(); });
   }
 
   /* go */
