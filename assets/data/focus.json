@@ -1,0 +1,117 @@
+{
+  "intro": {
+    "it": "Concentrarsi è un'abilità che si allena. Con piccole abitudini, un ambiente curato e un sottofondo sonoro discreto puoi creare le condizioni giuste per il lavoro profondo.",
+    "en": "Focus is a skill you can train. With small habits, a tidy environment and a discreet sound backdrop, you can set up the right conditions for deep work.",
+    "es": "La concentración es una habilidad que se entrena. Con pequeños hábitos, un entorno cuidado y un fondo sonoro discreto puedes crear las condiciones adecuadas para el trabajo profundo."
+  },
+  "topics": [
+    {
+      "icon": "wave",
+      "title": {
+        "it": "Onde per il focus",
+        "en": "Waves for focus",
+        "es": "Ondas para el enfoque"
+      },
+      "blurb": {
+        "it": "Alpha ~8-12 Hz · Beta ~13-30 Hz · Gamma ~40 Hz",
+        "en": "Alpha ~8-12 Hz · Beta ~13-30 Hz · Gamma ~40 Hz",
+        "es": "Alfa ~8-12 Hz · Beta ~13-30 Hz · Gamma ~40 Hz"
+      },
+      "long": {
+        "it": "Le bande di onde cerebrali sono spesso associate a stati diversi: alpha (~8-12 Hz) a una calma vigile, beta (~13-30 Hz) alla vigilanza attiva e gamma (~40 Hz) a momenti di attenzione intensa. Molti usano queste frequenze come sottofondo mentre studiano o lavorano. Provale e tieni quella che senti più adatta al tuo compito.",
+        "en": "Brainwave bands are often associated with different states: alpha (~8-12 Hz) with calm alertness, beta (~13-30 Hz) with active wakefulness, and gamma (~40 Hz) with moments of intense attention. Many people use these frequencies as a backdrop while studying or working. Try them and keep the one that feels best suited to your task.",
+        "es": "Las bandas de ondas cerebrales suelen asociarse a estados distintos: alfa (~8-12 Hz) a una calma atenta, beta (~13-30 Hz) a la vigilia activa y gamma (~40 Hz) a momentos de atención intensa. Mucha gente usa estas frecuencias como fondo mientras estudia o trabaja. Pruébalas y quédate con la que sientas más adecuada para tu tarea."
+      }
+    },
+    {
+      "icon": "atom",
+      "title": {
+        "it": "Una cosa alla volta",
+        "en": "One thing at a time",
+        "es": "Una cosa a la vez"
+      },
+      "blurb": {
+        "it": "Mono-tasking · blocchi di lavoro profondo · un obiettivo chiaro",
+        "en": "Mono-tasking · deep work blocks · one clear goal",
+        "es": "Mono-tarea · bloques de trabajo profundo · un objetivo claro"
+      },
+      "long": {
+        "it": "Il cervello lavora meglio su un compito alla volta: passare di continuo da un'attività all'altra fa perdere tempo e qualità. Scegli un solo obiettivo per la sessione, chiudi le altre schede e dedicagli un blocco di lavoro profondo senza interruzioni. Definire prima cosa significa \"fatto\" ti aiuta a restare sul binario.",
+        "en": "The brain works best on one task at a time: constantly switching between activities costs time and quality. Pick a single goal for the session, close other tabs, and give it a block of uninterrupted deep work. Defining what \"done\" looks like beforehand helps you stay on track.",
+        "es": "El cerebro funciona mejor con una tarea a la vez: cambiar constantemente de actividad cuesta tiempo y calidad. Elige un solo objetivo para la sesión, cierra las demás pestañas y dedícale un bloque de trabajo profundo sin interrupciones. Definir antes qué significa \"terminado\" te ayuda a mantener el rumbo."
+      }
+    },
+    {
+      "icon": "star",
+      "title": {
+        "it": "Pomodoro e blocchi",
+        "en": "Pomodoro and blocks",
+        "es": "Pomodoro y bloques"
+      },
+      "blurb": {
+        "it": "25 minuti di lavoro · 5 di pausa · agenda a blocchi",
+        "en": "25 min work · 5 min break · time-blocked agenda",
+        "es": "25 min de trabajo · 5 de pausa · agenda por bloques"
+      },
+      "long": {
+        "it": "Il metodo pomodoro alterna circa 25 minuti di lavoro a 5 di pausa, con una pausa più lunga ogni quattro cicli: dà un ritmo chiaro e rende meno faticoso iniziare. Il time-blocking aggiunge struttura assegnando a ogni attività una fascia precisa nell'agenda. Prova a far partire un brano in sottofondo all'inizio di ogni blocco per segnalare alla mente che è ora di concentrarsi.",
+        "en": "The pomodoro method alternates about 25 minutes of work with 5 of rest, plus a longer break every four cycles: it gives a clear rhythm and makes getting started easier. Time-blocking adds structure by assigning each task a specific slot in your calendar. Try starting a track in the background at the beginning of each block to signal to your mind that it's time to focus.",
+        "es": "El método pomodoro alterna unos 25 minutos de trabajo con 5 de pausa, más un descanso más largo cada cuatro ciclos: aporta un ritmo claro y hace más fácil empezar. El time-blocking añade estructura asignando a cada tarea una franja concreta en la agenda. Prueba a poner una pista de fondo al inicio de cada bloque para indicarle a tu mente que es hora de concentrarse."
+      }
+    },
+    {
+      "icon": "key",
+      "title": {
+        "it": "Via le distrazioni",
+        "en": "Cut the distractions",
+        "es": "Fuera las distracciones"
+      },
+      "blurb": {
+        "it": "Telefono in altra stanza · notifiche off · scrivania pulita",
+        "en": "Phone in another room · notifications off · clear desk",
+        "es": "Móvil en otra sala · notificaciones off · escritorio despejado"
+      },
+      "long": {
+        "it": "Ogni notifica spezza il filo e ci vuole tempo per riprenderlo. Metti il telefono fuori dalla vista o in un'altra stanza, silenzia le notifiche e tieni aperte solo le schede che ti servono. Una scrivania ordinata e qualche regola semplice (niente social durante i blocchi) riducono gli inviti a distrarti prima ancora che arrivino.",
+        "en": "Every notification breaks your train of thought, and it takes time to pick it back up. Put your phone out of sight or in another room, silence notifications, and keep open only the tabs you actually need. A tidy desk and a few simple rules (no social media during blocks) reduce the temptations to drift before they even appear.",
+        "es": "Cada notificación corta el hilo y recuperarlo lleva tiempo. Deja el móvil fuera de la vista o en otra sala, silencia las notificaciones y mantén abiertas solo las pestañas que necesitas. Un escritorio ordenado y unas reglas sencillas (nada de redes durante los bloques) reducen las tentaciones de distraerte antes incluso de que aparezcan."
+      }
+    },
+    {
+      "icon": "spiral",
+      "title": {
+        "it": "Ascolto in sottofondo",
+        "en": "Listening in the background",
+        "es": "Escuchar de fondo"
+      },
+      "blurb": {
+        "it": "Volume basso · senza testo · loop continuo",
+        "en": "Low volume · no lyrics · continuous loop",
+        "es": "Volumen bajo · sin letra · en bucle continuo"
+      },
+      "long": {
+        "it": "Per accompagnare lo studio o il lavoro tieni il volume basso, tanto da percepire il suono senza che diventi protagonista. Le tracce senza parole e in loop continuo aiutano a non spostare l'attenzione sul brano. Pensa alla musica come a uno sfondo che maschera i rumori e ti accompagna, non come a qualcosa da ascoltare attivamente.",
+        "en": "To accompany studying or work, keep the volume low, just enough to sense the sound without it taking center stage. Tracks without lyrics, on a continuous loop, help you avoid shifting attention onto the song itself. Think of the music as a backdrop that masks noise and keeps you company, not as something to listen to actively.",
+        "es": "Para acompañar el estudio o el trabajo, mantén el volumen bajo, lo justo para percibir el sonido sin que se convierta en protagonista. Las pistas sin letra y en bucle continuo ayudan a no desviar la atención hacia la canción. Piensa en la música como un fondo que enmascara el ruido y te acompaña, no como algo que escuchar activamente."
+      }
+    },
+    {
+      "icon": "eye",
+      "title": {
+        "it": "Pause che ricaricano",
+        "en": "Breaks that recharge",
+        "es": "Pausas que recargan"
+      },
+      "blurb": {
+        "it": "Alzati e muoviti · occhi lontano dallo schermo · respiro lento",
+        "en": "Stand and move · eyes off the screen · slow breathing",
+        "es": "Levántate y muévete · ojos fuera de la pantalla · respiración lenta"
+      },
+      "long": {
+        "it": "L'attenzione si consuma e va ricaricata: una pausa breve ma vera vale più di mille micro-interruzioni. Alzati, muoviti, distogli gli occhi dallo schermo e guarda lontano, bevi un sorso d'acqua e fai qualche respiro lento. Evita di riempire la pausa con altri schermi, così la mente torna al lavoro davvero riposata.",
+        "en": "Attention gets depleted and needs recharging: one short but genuine break is worth more than a thousand micro-interruptions. Stand up, move, take your eyes off the screen and look into the distance, sip some water and take a few slow breaths. Avoid filling the break with more screens, so your mind comes back to work truly rested.",
+        "es": "La atención se agota y hay que recargarla: una pausa breve pero real vale más que mil microinterrupciones. Levántate, muévete, aparta los ojos de la pantalla y mira a lo lejos, bebe un sorbo de agua y haz unas cuantas respiraciones lentas. Evita llenar la pausa con más pantallas, así tu mente vuelve al trabajo de verdad descansada."
+      }
+    }
+  ]
+}

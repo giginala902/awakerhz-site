@@ -16,6 +16,7 @@
     { page: 'books',       href: 'books.html',            key: 'nav.books',       en: 'Books' },
     { page: 'store',       href: 'store.html',            key: 'nav.store',       en: 'Store' },
     { page: 'health',      href: 'health.html',           key: 'nav.health',      en: 'Health & Food' },
+    { page: 'sleepfocus',  href: 'sleep-focus.html',      key: 'nav.sleepfocus',  en: 'Sleep & Focus' },
     { page: 'hidden',      href: 'hidden-knowledge.html', key: 'nav.hidden',      en: 'Hidden Knowledge' },
     { page: 'about',       href: 'about.html',            key: 'nav.about',       en: 'Manifesto' }
   ];

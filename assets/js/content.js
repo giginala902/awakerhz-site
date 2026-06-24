@@ -120,9 +120,9 @@
     mount.innerHTML = `<p class="cat-intro">${esc(t(d.intro))}</p><div class="freq-list">${rows}</div>`;
   }
 
-  /* ── SLEEP & FOCUS (consigli pratici, stesso stile accordion) ── */
-  async function renderSleepFocus(mount) {
-    const d = await load('sleepfocus');
+  /* ── topics accordion generico (sleep / focus) ── */
+  async function renderTopics(mount, name) {
+    const d = await load(name);
     const rows = d.topics.map(tp => infoRow({
       cls: 'is-topic',
       icon: iconSvg(tp.icon),
@@ -202,7 +202,8 @@
     chakras: renderChakras,
     binaural: renderBinaural,
     hidden: renderHidden,
-    sleepfocus: renderSleepFocus,
+    sleep: (m) => renderTopics(m, 'sleep'),
+    focus: (m) => renderTopics(m, 'focus'),
     about: renderAbout,
     store: (m) => renderTabbed(m, 'store', cardProduct),
     food: (m) => renderTabbed(m, 'food', cardFood, { disclaimer: true, rows: true }),
