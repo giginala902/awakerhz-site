@@ -11,3 +11,7 @@ desktop.ini
 
 # contenuti grezzi generati (la versione servita e in assets/data/)
 _content/
+
+# backup / solo locale (non pubblicare)
+_reference/
+_screenshot/
